@@ -1,5 +1,5 @@
 ## Introduction
-- We totally collect 1) 18 data augmentation methods from code data, and 2) 7 data augmentation methods from NLP, and build this project on the top of [ALERT project](https://github.com/soarsmu/attack-pretrain-models-of-code), [Project_CodeNet](https://github.com/IBM/Project_CodeNet), and [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric). Please refer to these projects for more details.
+- We totally collect 1) 18 data augmentation methods from code data, and 2) 7 data augmentation methods from NLP, and build this project on the top of [ALERT project](https://github.com/soarsmu/attack-pretrain-models-of-code) and [Project_CodeNet](https://github.com/IBM/Project_CodeNet). Please refer to these projects for more details.
 
 - We modify all 7 data augmentation methodes from NLP to adapt to source code. 
 ```
