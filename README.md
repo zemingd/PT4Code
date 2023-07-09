@@ -44,7 +44,7 @@ Pytorch (version 1.6.0)
 CUDA 10.1
 cuDNN (>=7.6)
 ```
-##General Procedure
+## General Procedure
 ### Fine-tuning CodeBERT & GraphCodeBERT 
 
 - pip install torch==1.4.0
