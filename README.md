@@ -135,7 +135,7 @@ python mhm.py \
     --seed 123456
 ```
 
-### Attack GraphCodeBERT.
+### Attack GraphCodeBERT
 #### Generate substitutes
 If you prefer to generate from the scratch:
 we use the substitutes by ALERT:
