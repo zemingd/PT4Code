@@ -44,14 +44,14 @@ Pytorch (version 1.6.0)
 CUDA 10.1
 cuDNN (>=7.6)
 ```
-## General Procedure
+## Main procedure
 ### Fine-tuning CodeBERT & GraphCodeBERT 
 
 - pip install torch==1.4.0
 - pip install transformers==2.5.0
 - pip install filelock
 
-#### Fine-Tune 
+#### Fine-Tune: 
 ```shell
 cd CodeBERT
 
@@ -91,7 +91,7 @@ python run.py \
 ```
 
 
-### Attack CodeBERT.
+### Attack CodeBERT
 #### Generate substitutes
 If you prefer to generate from the scratch:
 we use the substitutes by ALERT:
@@ -103,7 +103,7 @@ python get_substitutes.py \
     --block_size 512 \
     --index 0 500
 ```
-### Attack
+#### Attack
 For ALERT Attack, run:
 ```shell
 cd Attack_Robustness/CodeBERT
