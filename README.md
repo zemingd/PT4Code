@@ -44,7 +44,7 @@ Pytorch (version 1.6.0)
 CUDA 10.1
 cuDNN (>=7.6)
 ```
-## Main procedure
+## Main Procedure
 ### Fine-tuning CodeBERT & GraphCodeBERT 
 
 - pip install torch==1.4.0
@@ -103,7 +103,7 @@ python get_substitutes.py \
     --block_size 512 \
     --index 0 500
 ```
-#### Attack
+#### Attack:
 For ALERT Attack, run:
 ```shell
 cd Attack_Robustness/CodeBERT
@@ -147,7 +147,7 @@ python get_substitutes.py \
     --block_size 384 \
     --index 0 500
 ```
-#### Attack
+#### Attack:
 For ALERT Attack, run:
 ```shell
 cd Attack_Robustness/GraphCodeBERT
