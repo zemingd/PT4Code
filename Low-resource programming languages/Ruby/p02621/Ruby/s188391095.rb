@@ -1,0 +1,1 @@
+p [2,3].inject(A=gets.to_i){_1+A**_2}

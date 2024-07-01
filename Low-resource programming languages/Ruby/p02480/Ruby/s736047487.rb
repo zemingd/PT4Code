@@ -1,0 +1,1 @@
+p STDIN.read.to_i ** 3

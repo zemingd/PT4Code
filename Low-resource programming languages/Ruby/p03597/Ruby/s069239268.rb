@@ -1,0 +1,1 @@
+p 2.times.map{gets.to_i}.reduce{|n, a| n**2-a}

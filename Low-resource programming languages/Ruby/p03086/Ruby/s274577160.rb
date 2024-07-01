@@ -1,0 +1,1 @@
+puts (gets.chomp.scan(/[ATCG]+/).map(&:length)+[0]).max

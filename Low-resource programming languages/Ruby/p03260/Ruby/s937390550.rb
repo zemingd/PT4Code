@@ -1,0 +1,1 @@
+puts gets.split.map(&:to_i).include?(2) ? 'No' : 'Yes'

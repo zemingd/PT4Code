@@ -1,0 +1,1 @@
+put gets.to_i**3

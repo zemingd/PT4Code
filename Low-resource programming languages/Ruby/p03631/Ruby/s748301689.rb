@@ -1,0 +1,1 @@
+puts (N = gets.chomp.to_s) == N.reverse ? 'Yes' : 'No'

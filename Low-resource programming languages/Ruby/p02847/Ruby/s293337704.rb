@@ -1,0 +1,1 @@
+p~`date +%w -d$(dd)`.oct%8

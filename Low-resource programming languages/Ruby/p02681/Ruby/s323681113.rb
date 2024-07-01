@@ -1,0 +1,1 @@
+print gets.strip == gets.strip.chop ? 'Yes' : 'No'

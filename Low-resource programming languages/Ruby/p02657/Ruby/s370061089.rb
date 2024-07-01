@@ -1,0 +1,1 @@
+puts gets.spilit.to_i*gets.spilit.to_i

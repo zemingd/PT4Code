@@ -1,0 +1,1 @@
+puts ((gets.split.map(&:to_f))/2.0).round(0)

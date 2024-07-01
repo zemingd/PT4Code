@@ -1,0 +1,1 @@
+gets;m=$<.map &:chars;2.times{m=m.select{|s|s*''=~/#/}.transpose};puts m.map &:join

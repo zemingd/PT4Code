@@ -1,0 +1,1 @@
+p (0..n=gets.to_i).map{(_1.digits(6)+(n-_1).digits(9)).sum}.min

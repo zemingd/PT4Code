@@ -1,0 +1,1 @@
+p gets.scan(/R+/).map{_1.size}.max||0

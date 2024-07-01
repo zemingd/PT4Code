@@ -1,0 +1,1 @@
+puts $stdin.gets.to_i**3

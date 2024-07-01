@@ -1,0 +1,1 @@
+eval"_,B,*C="+`dd`.split*?,;C.each_slice(2).sort.any?{|x,y|p x if 0>=B-=y}

@@ -1,0 +1,1 @@
+p gets.to_i%($_.sum-$_.size*48+38)>0?:No: :Yes

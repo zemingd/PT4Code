@@ -1,0 +1,1 @@
+r=gets.to_f;x=r*Math::PI;printf"%f %f",x*r,x*2

@@ -1,0 +1,1 @@
+puts"aiueo".index(gets)?:vowel: :consonant

@@ -1,0 +1,1 @@
+puts gets.chomp.chars.tap {|s| break s.zip(['+', '-'].repeated_permutation(3).find {|o| eval(s.zip(o).join) == 7 }).join + "=7" }

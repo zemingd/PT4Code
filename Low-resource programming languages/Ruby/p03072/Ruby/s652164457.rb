@@ -1,0 +1,1 @@
+N=gets;l=0;p gets.split.map(&:to_i).count{|x|(l=[l,x].max)==x}

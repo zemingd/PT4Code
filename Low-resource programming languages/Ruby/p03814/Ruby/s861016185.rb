@@ -1,0 +1,1 @@
+p gets.match(/(A.*Z)/)[1].length

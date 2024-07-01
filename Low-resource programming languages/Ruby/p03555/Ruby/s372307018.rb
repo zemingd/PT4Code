@@ -1,0 +1,1 @@
+puts gets.strip.reverse == gets.strip ? 'YES' : 'NO'

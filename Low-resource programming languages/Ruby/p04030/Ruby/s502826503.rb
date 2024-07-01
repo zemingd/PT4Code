@@ -1,0 +1,1 @@
+s = gets.chomp;s.length.times{s.sub!(/.?B/,"")};puts s

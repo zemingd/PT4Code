@@ -1,0 +1,1 @@
+puts gets.strip.each_char.inject(""){|res, char| char + res }

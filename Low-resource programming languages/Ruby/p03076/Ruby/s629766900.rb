@@ -1,0 +1,1 @@
+x=$<.map &:to_i;p (x+x.map{|a|-a%10}.sort[0,4]).reduce:+

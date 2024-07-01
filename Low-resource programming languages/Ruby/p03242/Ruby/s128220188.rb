@@ -1,0 +1,1 @@
+gets().chomp().chars {|c| print c =="9" ? "1" : "9"}

@@ -1,0 +1,1 @@
+n=gets.to_i;~/ /;r=[-1]*3;n.times{|i|(n-i).times{|j|n+4*j+9*i==$'.to_f/1e3&&r=[i,j,n-i-j]}};puts r

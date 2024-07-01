@@ -1,0 +1,1 @@
+require'prime';p (gets.to_i..1e6).find{|x|Prime.prime? x}

@@ -1,0 +1,1 @@
+gets.chomp.split(" ").map{|s| print s[0]}

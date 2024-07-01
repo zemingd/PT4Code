@@ -1,0 +1,1 @@
+r=gets.to_i;P=3.1415926;puts [r*r*P,2*r*P]*" "

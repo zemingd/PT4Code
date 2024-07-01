@@ -1,0 +1,1 @@
+puts 700+gets.chars.count(?o)*100

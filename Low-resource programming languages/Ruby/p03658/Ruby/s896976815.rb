@@ -1,0 +1,1 @@
+gets=~/ /;p gets.split.map(&:to_i).sort[-$'.to_i..-1].sum

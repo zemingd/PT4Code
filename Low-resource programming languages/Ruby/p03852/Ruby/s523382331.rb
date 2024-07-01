@@ -1,0 +1,1 @@
+puts 'aeiou'.index(gets[0])?'vowel':'consonant'

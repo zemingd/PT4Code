@@ -1,0 +1,1 @@
+gets.chomp.match(/A.*Z/){|m|p m[0].size}

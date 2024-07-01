@@ -1,0 +1,1 @@
+puts gets.chomp.split("").include?("7") ? "Yes" : "No"

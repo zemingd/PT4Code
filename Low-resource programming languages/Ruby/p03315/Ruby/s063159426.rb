@@ -1,0 +1,1 @@
+p 4-2*gets.chars.count{|c|c==?-}

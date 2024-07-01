@@ -1,0 +1,1 @@
+eval"p (%d-%d)%%%d"%`dd`.split

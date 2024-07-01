@@ -1,0 +1,1 @@
+s=0;n=gets.to_i;(1..n).each{|a|(1..n).each{|b|(1..n).each{|c|s+=a.gcd(b).gcd(c)}}};p s

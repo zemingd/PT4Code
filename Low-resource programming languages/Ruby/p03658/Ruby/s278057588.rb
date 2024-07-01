@@ -1,0 +1,1 @@
+eval"N,K,*L="+`dd`.split*?,;p L.sort.pop(K).inject:+

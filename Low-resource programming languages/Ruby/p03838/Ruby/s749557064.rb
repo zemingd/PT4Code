@@ -1,0 +1,1 @@
+eval'X,Y='+`dd`.split*?,;p [X+Y,~X+Y].map(&:abs).min+1

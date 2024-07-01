@@ -1,0 +1,1 @@
+a,b=gets.split.map(&:to_i);puts [a/b,a%b,(a.-1e-9)/b]*" "

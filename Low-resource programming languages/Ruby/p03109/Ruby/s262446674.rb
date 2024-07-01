@@ -1,0 +1,1 @@
+puts gets>"2019/05/01"?"TBD":"Heisei"

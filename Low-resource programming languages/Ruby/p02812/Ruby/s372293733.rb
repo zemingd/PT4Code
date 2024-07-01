@@ -1,0 +1,1 @@
+p`dd`.scan("ABC").size

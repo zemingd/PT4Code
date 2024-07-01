@@ -1,0 +1,1 @@
+p (gets.to_f/Array.new(5){gets.to_i}.min).ceil+4

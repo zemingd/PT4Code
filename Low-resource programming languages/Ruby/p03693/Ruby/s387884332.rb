@@ -1,0 +1,1 @@
+a=gets.split.map(&:to_i).join;puts a % 4 == 0 ? "YES" : "NO"

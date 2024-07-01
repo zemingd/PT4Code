@@ -1,0 +1,1 @@
+k=*1..gets.to_i;p k.product(k).map{|a,b|a.gcd b}.product(k).map{|a,c|a.gcd c}.sum

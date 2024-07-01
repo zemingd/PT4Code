@@ -1,0 +1,1 @@
+puts gets.chomp.split(/\s/).map(&:to_i).sort.join("\s")

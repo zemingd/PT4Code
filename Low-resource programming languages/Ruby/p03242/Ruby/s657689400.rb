@@ -1,0 +1,1 @@
+puts gets.chomp.split('').map{|s|s=='9'?1:s=='1'?9:s}.join

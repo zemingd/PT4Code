@@ -1,0 +1,1 @@
+a=[0]*gets.to_i;gets.split{a[_1.to_i-1]+=1};p *a

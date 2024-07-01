@@ -1,0 +1,1 @@
+gets.split.each_with_index {|n, i| puts i + 1 if n == "0"}

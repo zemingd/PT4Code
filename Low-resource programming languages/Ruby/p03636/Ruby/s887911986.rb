@@ -1,0 +1,1 @@
+a=gets.chomp;puts a.chars[0]+(a.size-2).to_s+a.chars[-1]

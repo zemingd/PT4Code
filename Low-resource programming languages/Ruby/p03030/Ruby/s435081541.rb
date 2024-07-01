@@ -1,0 +1,1 @@
+gets;i=0;p *$<.map{|e|e.split<<i+=1}.sort_by{|s,p|[s,-p.hex]}.map(&:last)

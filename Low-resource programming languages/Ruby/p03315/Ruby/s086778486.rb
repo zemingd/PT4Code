@@ -1,0 +1,1 @@
+p gets.chomp.split('').map{|c|c=='+'?1:-1}.inject(:+)

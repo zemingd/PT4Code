@@ -1,0 +1,1 @@
+p eval`sed 's/ \\b/.gcd /g'`

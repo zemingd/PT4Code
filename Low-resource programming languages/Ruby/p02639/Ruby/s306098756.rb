@@ -1,0 +1,1 @@
+puts gets.split.map(&:to_i).find_index(0) + 1

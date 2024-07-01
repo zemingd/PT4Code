@@ -1,0 +1,1 @@
+gets;$><<$<.map(&:chop).sort*''

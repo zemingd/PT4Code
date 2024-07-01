@@ -1,0 +1,1 @@
+p gets.chomp.scan(/[ACGT]*/).max.size||0

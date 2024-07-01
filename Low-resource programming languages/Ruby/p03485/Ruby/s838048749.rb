@@ -1,0 +1,1 @@
+puts (gets.chomp.split.map(&:to_i).sum / 2.0).ceil

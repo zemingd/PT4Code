@@ -1,0 +1,1 @@
+put(gets.split(" ").map(&:to_i).any?(&:even?) ? 'Even' : 'Odd')

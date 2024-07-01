@@ -1,0 +1,1 @@
+puts gets.gsub(/.？B/,"")

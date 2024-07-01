@@ -1,0 +1,1 @@
+p gets[0,2].to_i.times.map{gets.split.map(&:to_i)[1..-1]}.inject(:&).size

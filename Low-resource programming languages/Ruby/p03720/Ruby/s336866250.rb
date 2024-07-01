@@ -1,0 +1,1 @@
+p *`sed 1d`.split.map(&:to_i).tally.sort.map{_2}

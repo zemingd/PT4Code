@@ -1,0 +1,1 @@
+puts gets.chomp.gsub(/(dreameraser?|eraser?|dream(er)?)/, '').length == 0 ? 'YES' : 'NO'

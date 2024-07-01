@@ -1,0 +1,1 @@
+puts readlines.map(&:to_i).permutation(5).to_a.map {|a| a[0..3].inject(0) {|r,a| r + a.ceil(-1) } + a[4] }.min

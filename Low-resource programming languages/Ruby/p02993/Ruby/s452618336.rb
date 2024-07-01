@@ -1,0 +1,1 @@
+puts gets[/(.)\1/]?:Bad: :Good

@@ -1,0 +1,1 @@
+puts((/[aeiou]/=~STDIN.getc)?"vowel":"consonant")

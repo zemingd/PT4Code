@@ -1,0 +1,1 @@
+p eval("0#{gets.chars.join('1')}1")

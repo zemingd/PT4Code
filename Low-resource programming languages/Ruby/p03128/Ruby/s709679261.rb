@@ -1,0 +1,1 @@
+*d=0;eval"N,_,*A="+`dd`.split*?,;p d[N.times{|i|d[i]&&A.map{|x|d[t=i+[0,2,5,5,4,5,6,3,7,6][x]]=[d[t]||0,d[i]*10+x].max}}]

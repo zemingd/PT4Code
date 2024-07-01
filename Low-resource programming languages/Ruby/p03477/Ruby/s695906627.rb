@@ -1,0 +1,1 @@
+a,b,c,d=gets.split.map{|i|i.to_i};puts %w(Right Balanced Left)[1.+a+b<=>c+d]

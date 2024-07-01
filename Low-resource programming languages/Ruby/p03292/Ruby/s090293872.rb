@@ -1,0 +1,1 @@
+p (eval'Range.new('+gets.split*?,+?)).size

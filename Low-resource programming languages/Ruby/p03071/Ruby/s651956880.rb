@@ -1,0 +1,1 @@
+a, b = gets.chomp.split(' ').map(&:to_i); puts a == b ? 2 * a : [a, b].max * 2 - 1

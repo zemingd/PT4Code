@@ -1,0 +1,1 @@
+p [*$<].reduce(1){|a,b|b.to_i.lcm(a)}

@@ -1,0 +1,1 @@
+gets.chomp.split(' ').map(&:to_i).reduce(:+) >= 22 ? print('bust') : print('win')

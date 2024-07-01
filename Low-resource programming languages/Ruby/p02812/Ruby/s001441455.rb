@@ -1,0 +1,1 @@
+p (gets.to_i-gets.chomp.split('ABC').join.size)/3

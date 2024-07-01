@@ -1,0 +1,1 @@
+puts case gets.split.map(&:codepoints).flatten.inject(&:-) when 0 then '=' when (1..Float::INFINITY) then '>' else '<' end

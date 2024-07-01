@@ -1,0 +1,1 @@
+puts gets.chomp.split(/[^ACGT]/).max_by(&:length).to_s.length

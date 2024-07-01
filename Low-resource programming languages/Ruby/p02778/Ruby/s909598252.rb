@@ -1,0 +1,1 @@
+print 'x' * gets.chop.size

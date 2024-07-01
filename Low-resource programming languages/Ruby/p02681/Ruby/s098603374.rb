@@ -1,0 +1,1 @@
+puts /#{gets.chomp}\w$/.match(gets.chomp) ? "Yes" : "No"

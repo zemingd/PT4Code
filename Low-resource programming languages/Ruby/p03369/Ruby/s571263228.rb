@@ -1,0 +1,1 @@
+puts 700 + 100 * gets.chomp.count('o')

@@ -1,0 +1,1 @@
+eval"A=#"+`tr ' ' ,`;puts A.uniq!? :NO: :YES

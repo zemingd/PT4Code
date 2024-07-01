@@ -1,0 +1,1 @@
+eval'N,K,*A='+`dd`.split*?,;45.downto(r=0){|i|z=1<<i;c=A.count{|x|x&z>0};r+=z>K||N<c*2?c*z:(K-=z;N-c)*z};p r

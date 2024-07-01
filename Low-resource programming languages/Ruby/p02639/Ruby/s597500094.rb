@@ -1,0 +1,1 @@
+p 15-gets.split.sum(&:to_i)

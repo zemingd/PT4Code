@@ -1,0 +1,1 @@
+gets.to_i.tap { |n| puts(n.to_s.reverse.to_i == n ? 'Yes' : 'No') }

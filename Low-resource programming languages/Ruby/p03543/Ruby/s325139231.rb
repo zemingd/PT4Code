@@ -1,0 +1,1 @@
+puts gets.scan(/(.)\1\1/).empty? ? "No" : "Yes"

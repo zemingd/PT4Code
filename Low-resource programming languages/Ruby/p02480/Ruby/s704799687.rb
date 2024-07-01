@@ -1,0 +1,6 @@
+# coding: utf-8
+
+require 'scanf'		#scanf????????????
+input = scanf("%d")	
+a = input[0]**3
+printf("%d?\n",a)

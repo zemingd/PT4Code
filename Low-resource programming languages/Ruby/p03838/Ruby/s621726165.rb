@@ -1,0 +1,1 @@
+eval'X,Y='+`dd`.split*?,;p-~[(X+Y).abs,(X-Y+1).abs].min

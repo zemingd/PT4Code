@@ -1,0 +1,1 @@
+n=gets.chomp.count("7");puts n > 0 ? "Yes" : "No"

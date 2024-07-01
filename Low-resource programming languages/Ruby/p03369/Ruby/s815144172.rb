@@ -1,0 +1,1 @@
+puts gets.chomp.chars.count("o") * 100 + 700

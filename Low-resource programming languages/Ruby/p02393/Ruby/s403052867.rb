@@ -1,0 +1,1 @@
+puts gets.split.map{|i|i.to_i}.sort.map{|i|i.to_s}.reduce{|st,s|st+" "+s}

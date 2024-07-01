@@ -1,0 +1,1 @@
+readlines.each{|i| puts i.split.map(&:to_i).inject(&:+).to_s.size }

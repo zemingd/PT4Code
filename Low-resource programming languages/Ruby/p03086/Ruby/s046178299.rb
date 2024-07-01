@@ -1,0 +1,1 @@
+puts /([ACGT]+)/.match(gets.chomp).to_s.size

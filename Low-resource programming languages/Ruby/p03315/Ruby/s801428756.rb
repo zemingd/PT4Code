@@ -1,0 +1,1 @@
+p gets.count(?+)*2-4

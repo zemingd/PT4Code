@@ -1,0 +1,1 @@
+n=gets.split '';puts (n[0..2].uniq.size<2||n[1..3].uniq.size<2)?'Yes':'No'

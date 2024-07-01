@@ -1,0 +1,1 @@
+p Math.log2(gets.to_i).floor + 1

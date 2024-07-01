@@ -1,0 +1,1 @@
+puts gets.each_char.with_object([]) { |c, memo| if c == 'B' then memo.pop else memo.push(c) end  }.join

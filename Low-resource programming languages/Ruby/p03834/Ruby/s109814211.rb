@@ -1,0 +1,1 @@
+puts gets.chomp.to_s.gsub(/\,/, " ")

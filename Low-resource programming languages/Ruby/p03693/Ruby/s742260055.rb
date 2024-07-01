@@ -1,0 +1,1 @@
+puts gets.tr(' ','').to_i%4<1?:YES: :NO

@@ -1,0 +1,1 @@
+f=->{gets;(?a..?z).map{|c|$_.count(c)}.sort};puts f[]==f[]?:Yes: :No

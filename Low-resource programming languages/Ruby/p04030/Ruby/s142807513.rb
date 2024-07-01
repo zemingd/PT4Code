@@ -1,0 +1,1 @@
+gets; puts $_.split("").inject([]) {|arr,c| c=='B' ? (arr.pop; arr) : arr.push(c)}.join

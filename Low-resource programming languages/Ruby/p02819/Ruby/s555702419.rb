@@ -1,0 +1,1 @@
+require'prime';gets.to_i.upto(1e9){|i|break p i if Prime.prime?i}

@@ -1,0 +1,1 @@
+puts $<.read.include?('Y') ? :Four : :Three

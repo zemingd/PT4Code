@@ -1,0 +1,1 @@
+p`sed 1d|factor`.scan(/ 2\b/).size

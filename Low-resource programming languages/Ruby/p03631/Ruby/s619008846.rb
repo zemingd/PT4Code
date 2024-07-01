@@ -1,0 +1,1 @@
+puts (s=gets)==s.reverse ? :Yes: :No

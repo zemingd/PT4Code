@@ -1,0 +1,1 @@
+puts gets.split.map(&:to_i).sort.each_slice(3).all?{|a,b,c|a+b==c}?:Yes:"No"

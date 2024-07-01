@@ -1,0 +1,1 @@
+p ->a{a.inject(0){|k,e|k+(e-a[a.size/2]).abs}}.((a=*$<)[1].split.map.with_index{|a,i|a.hex-i}.sort)

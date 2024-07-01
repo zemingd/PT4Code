@@ -1,0 +1,1 @@
+puts %W(abc acb bac bca cab cba).count(gets)==1?"Yes":"No"

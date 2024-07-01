@@ -1,0 +1,1 @@
+puts "357".index(gets.chomp)?"YES":"NO"

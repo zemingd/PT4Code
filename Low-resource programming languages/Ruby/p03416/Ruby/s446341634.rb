@@ -1,0 +1,1 @@
+a,b=gets.split;p (a..b).count{|n|n==n.reverse}

@@ -1,0 +1,1 @@
+h={-1=>'a < b',0=>'a == b',1=>'a > b'};gets.split.map(&:to_i).reduce{|a,b|puts h[a<=>b]}

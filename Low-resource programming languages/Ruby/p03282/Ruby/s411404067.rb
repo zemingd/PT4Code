@@ -1,0 +1,1 @@
+puts gets[/1{,#{gets.to_i-1}}\K./]

@@ -1,0 +1,1 @@
+puts($stdin.read.chomp.gsub(/[^ATGC]/," ").split(" ").push("").map{|str| str.length}.max)

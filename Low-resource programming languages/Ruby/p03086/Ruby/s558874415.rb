@@ -1,0 +1,1 @@
+puts gets.chomp[/([ACGT]+)/, 1].to_s.size

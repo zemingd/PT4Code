@@ -1,0 +1,1 @@
+STDIN.read.each { |l| puts l.chomp.split(' ').map(&:to_i).sum.to_s.length }

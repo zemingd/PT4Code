@@ -1,0 +1,1 @@
+a=*?1..gets.chop;b=gets.split.tally;a.map{p b[_1]||0}

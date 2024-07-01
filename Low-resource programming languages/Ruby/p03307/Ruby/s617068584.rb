@@ -1,0 +1,1 @@
+puts 2.lcm(gets.chomp.to_i)

@@ -1,0 +1,35 @@
+def chance(n)
+	return 5 * (n+1)
+end
+
+n, k = gets.chomp.split(" ").map{|e|e.to_i}
+ps = gets.chomp.split(" ").map{|e|e.to_i}
+
+c = []
+
+for i in ps do
+	c << chance(i)
+end
+
+
+if k==1 then
+	e = c
+else
+	d = [c[0]]
+	1.upto(n-1) do |j|
+		d << d[j-1] + c[j]
+	end
+	
+	if n==k then 
+		e = [d[0]]
+	else
+
+		e = []
+		0.upto(n-k-1) do |j|
+			e << d[j+k] - d[j]
+		end
+	end
+end
+
+e.sort!.reverse!
+p(e[0]/10.0)

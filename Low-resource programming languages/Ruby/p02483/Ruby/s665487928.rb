@@ -1,0 +1,1 @@
+put gets.split.sort*" "

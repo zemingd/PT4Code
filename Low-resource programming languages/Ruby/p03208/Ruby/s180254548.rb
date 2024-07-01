@@ -1,0 +1,1 @@
+n,k,*a=`dd`.split.map &:to_i;a.sort!;p a.each_cons(k).map{|b|b[-1]-b[0]}.min

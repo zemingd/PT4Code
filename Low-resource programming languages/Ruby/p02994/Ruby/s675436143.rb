@@ -1,0 +1,1 @@
+n,l=gets.split.map &:to_i;p [*l...l+n].sort_by(&:abs)[1..-1].inject(:+)

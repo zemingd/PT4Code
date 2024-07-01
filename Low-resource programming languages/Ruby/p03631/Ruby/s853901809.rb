@@ -1,0 +1,1 @@
+puts gets[0]==gets[2] ? 'Yes':'No'

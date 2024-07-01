@@ -1,0 +1,1 @@
+puts gets.chpmp.chars.zip(gets.chomp.chars).select{|x,y|x==y}.size

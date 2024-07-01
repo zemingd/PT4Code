@@ -1,0 +1,1 @@
+*a=gets=~/.* /;$<.map{|b|a=a.product(b.split.map &:to_i).map{|x,y|x+y}.max$'.to_i};p *a

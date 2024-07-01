@@ -1,0 +1,1 @@
+a,b=(eval'_='+`dd`.split*?,).minmax;p b-a

@@ -1,0 +1,1 @@
+puts gets.match(/(^(1*)(.*)$)/) {|m| m[2].length >= gets.to_i ? 1 : m[3][0] }

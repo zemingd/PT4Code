@@ -1,0 +1,1 @@
+eval"N,*A="+`dd`.split*?,;p A[a=0,N-1].map{|n|(A.inject(:+)-2*a+=n).abs}.min

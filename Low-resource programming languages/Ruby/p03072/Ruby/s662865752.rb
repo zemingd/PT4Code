@@ -1,0 +1,1 @@
+eval"A,*H="+`dd`.split*?,;p H.count{|n|n>=$.=[$.,n].max}

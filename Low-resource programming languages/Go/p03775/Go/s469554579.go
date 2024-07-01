@@ -1,0 +1,35 @@
+package main
+
+import (
+	"fmt"
+)
+
+const inf = 0x3f3f3f3f
+
+func cal(n int) (ret int) {
+	for n > 0 {
+		ret++
+		n /= 10
+	}
+	return ret
+}
+
+func main() {
+	var n int
+	fmt.Scanf("%d\n", &n)
+	ans := inf
+	for i := 1; i*i < n; i++ {
+		if n%i != 0 {
+			continue
+		}
+		j := n / i
+		m1, m2 := cal(i), cal(j)
+		if m2 > m1 {
+			m1 = m2
+		}
+		if m1 < ans {
+			ans = m1
+		}
+	}
+	fmt.Printf("%d", ans)
+}

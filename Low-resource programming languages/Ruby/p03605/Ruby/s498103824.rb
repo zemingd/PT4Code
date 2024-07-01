@@ -1,0 +1,1 @@
+puts /9/=~gets ? :Yes: :No

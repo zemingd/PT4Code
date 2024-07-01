@@ -1,0 +1,1 @@
+puts (gets.chomp[/^(A{3}|B{3})$/])? "No" : "Yes"

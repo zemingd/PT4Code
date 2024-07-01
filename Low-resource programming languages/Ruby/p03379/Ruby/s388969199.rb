@@ -1,0 +1,1 @@
+eval"N,*A="+`dd`.split*?,;b,c=A.sort[N/2-1,2];A.map{|x|p x<c ?c:b}

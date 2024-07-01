@@ -1,0 +1,1 @@
+eval"N,Y="+`tr ' ' ,`;$><<([*0..N].product([0,1]).map{|a,b|[a,b,N-a-b]}.find{|a,b,c|c>=0&&a*10+b*5+c==Y/1e3}||[-1]*3)*?\s

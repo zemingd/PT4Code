@@ -1,0 +1,1 @@
+p`factor`.lines.map{|e|e.split}.reduce(:&).size+1

@@ -1,0 +1,1 @@
+g=gets;p 2*gets.to_i-g.to_i

@@ -1,0 +1,7 @@
+while str = gets
+end
+cnt = 0
+("a".."z").each do |i|
+  cnt = str.count(i) + str.count(i.upcase)
+  puts "#{i} : #{cnt}"
+end

@@ -1,0 +1,1 @@
+readlines.map { |l| l.chomp.to_i }.tap { |x, a, b| p ((x - a) % b) }

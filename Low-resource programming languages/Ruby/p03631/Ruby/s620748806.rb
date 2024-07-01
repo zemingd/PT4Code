@@ -1,0 +1,1 @@
+a=gets.chop;puts a == a.reverse ? "Yes" : "No"

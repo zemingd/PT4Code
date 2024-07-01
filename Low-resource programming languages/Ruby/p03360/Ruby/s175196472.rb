@@ -1,0 +1,1 @@
+eval"a,b,c=[%d,%d,%d].sort;p a+b+c*2**%d"%`dd`.split

@@ -1,0 +1,1 @@
+h={-1=>'<',0=>'==',1=>'>'};gets.split.map(&:to_i).reduce{|a,b|puts 'a '+h[a<=>b]+' b'}

@@ -1,0 +1,1 @@
+p eval$<.map{|l|[*(l=l.split).sort.permutation].index l}.sort*'.-'

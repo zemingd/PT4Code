@@ -1,0 +1,1 @@
+gets;puts gets.split.each_slice(2).inject([]){|s,(a,b)|s<<a;b ?s.unshift(b):s.reverse}*" "

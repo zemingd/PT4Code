@@ -1,0 +1,2 @@
+gets=~/R+/
+puts ($&||"").size

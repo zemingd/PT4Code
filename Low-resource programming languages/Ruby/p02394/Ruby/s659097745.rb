@@ -1,0 +1,2 @@
+W,H,x,y,r = gets.split.map(&:to_i)
+puts (x-r)>0 && (y-r)>0 && (x+r)<W && (y+r)<H ? :Yes : :No

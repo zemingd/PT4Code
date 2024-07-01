@@ -1,0 +1,1 @@
+puts ('a'..'z').to_a[('a'..'z').to_a.index(gets.chomp!.to_s).to_i + 1]

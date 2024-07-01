@@ -1,0 +1,1 @@
+N=gets.to_i;s=Hash.new(0);A=gets.split.map{|t|s[t.to_i]+=1};p s.keys.map{|k|s[k-1]+s[k]+s[k+1]}.max

@@ -1,0 +1,1 @@
+puts(%w(a e i o u).include?(gets.strip.downcase) ? 'vowel' : 'consonant')

@@ -1,0 +1,1 @@
+puts gets.slice(1,1) + gets.slice(2,1) + gets.slice(3,1)

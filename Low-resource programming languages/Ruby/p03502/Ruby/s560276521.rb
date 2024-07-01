@@ -1,0 +1,1 @@
+gets.chomp.tap{|str| puts str.to_i % str.chars.map(&:to_i).inject(:+) == 0 ? :Yes: :No }

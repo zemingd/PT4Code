@@ -1,0 +1,1 @@
+n=`tr -d ' '`;puts n==Math.sqrt(n)**2?:Yes: :No

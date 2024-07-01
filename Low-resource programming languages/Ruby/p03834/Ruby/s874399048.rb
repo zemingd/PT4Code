@@ -1,0 +1,1 @@
+puts str = gets.split(",").join(" ")

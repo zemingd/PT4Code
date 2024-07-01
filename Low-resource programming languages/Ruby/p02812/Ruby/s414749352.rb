@@ -1,0 +1,1 @@
+p`sed 's/ABC/a/g'`.count ?a

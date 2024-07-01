@@ -1,0 +1,1 @@
+((s = gets.chomp) == "AAA" || s == "BBB")? puts("No") : puts("Yes")

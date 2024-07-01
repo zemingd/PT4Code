@@ -1,0 +1,1 @@
+eval"p %d>=%d?10:0"%gets.split

@@ -1,0 +1,1 @@
+$<.gets.chomp=~/A(.*)Z/;puts $&.size

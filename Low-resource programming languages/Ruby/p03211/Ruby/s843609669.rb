@@ -1,0 +1,1 @@
+p gets.chop.chars.each_cons(3).map{|x|(x.join.to_i-753).abs}.min

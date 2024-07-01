@@ -1,0 +1,1 @@
+p 100*(gets.chars.count{|c|c==?o}+7)

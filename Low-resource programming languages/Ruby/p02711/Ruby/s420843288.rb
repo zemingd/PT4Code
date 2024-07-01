@@ -1,0 +1,1 @@
+puts gets.match(/7/) ? "Yes" : "No"

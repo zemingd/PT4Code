@@ -1,0 +1,1 @@
+eval"N,M,C,*R="+`dd`.split*?,;p (1..N).count{|i|eval(R[0,M].zip(R[i*M,M]).map{|a,b|a*b}*?+)>-C}

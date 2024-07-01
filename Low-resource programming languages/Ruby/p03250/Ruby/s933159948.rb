@@ -1,0 +1,1 @@
+p eval gets.chars.sort*?++?0

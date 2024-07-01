@@ -1,0 +1,1 @@
+puts gets(p).chop!.reverse==$_?:YES: :NO

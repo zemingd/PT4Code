@@ -1,0 +1,1 @@
+str = gets;puts str.split("").uniq.map{ |x| str.scan(/#{x}+/).max }.max_by(&:size).size >= 3 ? :Yes: :No

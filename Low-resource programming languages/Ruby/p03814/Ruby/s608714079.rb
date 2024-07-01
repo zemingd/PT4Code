@@ -1,0 +1,1 @@
+gets=~/A.*Z/;p$&.size

@@ -1,0 +1,1 @@
+puts ((X = gets.to_i) == 3 || X == 5 || X == 7) ? "YES" : "NO"

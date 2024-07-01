@@ -1,0 +1,1 @@
+p gets.chomp.chars.each_cons(3).map{|a,b,c|(753-(a+b+c).to_i).abs}.min

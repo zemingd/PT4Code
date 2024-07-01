@@ -1,0 +1,1 @@
+while[0,0]!=c=gets.split.map(&:to_i);puts c.sort*" "end

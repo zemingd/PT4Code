@@ -1,0 +1,1 @@
+N,M=gets.split.map &:to_i;N.times{|i|p M.times.flat_map{gets.split.map &:to_i}.count(i+1)}

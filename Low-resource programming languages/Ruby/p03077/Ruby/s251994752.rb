@@ -1,0 +1,1 @@
+n = gets.chomp.to_i; abcde = 5.times.map  { gets.chomp.to_i }; puts (n * 1.0 / abcde.min).ceil + 4;

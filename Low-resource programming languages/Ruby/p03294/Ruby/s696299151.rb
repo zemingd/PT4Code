@@ -1,0 +1,1 @@
+eval"p -"+`dd`.split*?+

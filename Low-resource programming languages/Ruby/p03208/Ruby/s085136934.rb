@@ -1,0 +1,1 @@
+eval"N,K,*H="+`dd`.split*?,;H.sort!;p (K..N).map{H.pop-H[1-K]}.min

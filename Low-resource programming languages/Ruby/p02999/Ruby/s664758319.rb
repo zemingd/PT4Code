@@ -1,0 +1,1 @@
+p eval(gets.chomp.tap{ |s| s[1]="<" }) ? 0 : 10

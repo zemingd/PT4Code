@@ -1,0 +1,1 @@
+p eval %w<[ ,~ ].map(&:abs).min+1>.*`dd`.split*?+

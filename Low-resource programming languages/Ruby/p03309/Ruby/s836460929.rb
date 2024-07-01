@@ -1,0 +1,1 @@
+p ->a,b{a.inject(0){|k,e|k+(e-b).abs}}.(a=$<.to_a.last.split.map.with_index{|e,i|e.to_i-i}.sort,a[a.size/2])

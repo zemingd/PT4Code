@@ -1,0 +1,1 @@
+puts gets.chop.chars.uniq.size==3 ? :Yes : :No

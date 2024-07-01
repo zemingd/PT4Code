@@ -1,0 +1,5 @@
+# frozen_string_literal: true
+
+n, i = gets.split.map(&:to_i)
+
+puts n - i + 1

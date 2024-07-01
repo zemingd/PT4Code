@@ -1,0 +1,1 @@
+STDOUT.puts STDIN.gets.chomp(',').join(' ')

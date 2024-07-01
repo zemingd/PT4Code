@@ -1,0 +1,14 @@
+ary = gets.split(" ").map(&:to_i)
+
+a = ary[0]
+b = ary[1]
+c = ary[2]
+d = ary.last
+
+if (a-c).abs >= d
+    puts "Yes"
+elsif d >= (a-b).abs and d >= (a-c).abs
+    puts "Yes"
+else
+    puts "No"
+end

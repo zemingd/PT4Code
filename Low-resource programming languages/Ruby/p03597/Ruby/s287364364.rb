@@ -1,0 +1,1 @@
+a,b=readlines.split('\n').map(&:to_i);puts a*a-b

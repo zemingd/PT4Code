@@ -1,0 +1,1 @@
+gets; p gets.chomp.split.map{|s| s.to_i - 1}.inject(:+)

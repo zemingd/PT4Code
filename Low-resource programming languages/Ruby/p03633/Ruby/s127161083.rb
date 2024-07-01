@@ -1,0 +1,1 @@
+p (1..gets.to_i).inject{|m,_|m.lcm gets.to_i}

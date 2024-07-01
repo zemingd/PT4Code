@@ -1,0 +1,1 @@
+n,k,*a=`dd`.split.map &:to_i;45.downto(r=t=0){|i|c=a.count{|x|0<x&Z=1<<i};r,t=t|Z>k||n<=c*2?[r+c*Z,t]:[r+(n-c)*Z,t|Z]};p r

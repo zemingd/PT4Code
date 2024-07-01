@@ -1,0 +1,1 @@
+require 'prime';p (1..gets.to_i).step(2).count{|i|r=1;i.prime_division.to_h.values.map{|j|r*=-~j};r==8}

@@ -1,0 +1,1 @@
+c=[0,2,5,5,4,5,6,3,7,6];N=gets.split[0].to_i;A=gets.split.map &:to_i;d=[0]+A.map{};0.upto(N){|i|q=A.map{|x|c[x]<=i&&d[t=i-c[x]]d[t]*10+x}.compact;q.any?&&d[i]=q.max};p d[N]

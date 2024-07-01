@@ -1,0 +1,1 @@
+p ([1,2,3] - gets.split.map(&:to_i))[0]

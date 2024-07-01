@@ -1,0 +1,1 @@
+puts 2 ** (gets.to_i.to_s(2).size) - 1

@@ -1,0 +1,1 @@
+p (1+eval(gets.gsub(/ /,?*)))/2

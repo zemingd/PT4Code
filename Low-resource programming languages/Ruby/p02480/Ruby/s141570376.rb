@@ -1,0 +1,1 @@
+puts x = gets.to_i ** 3

@@ -1,0 +1,1 @@
+p 7-`date +%w -d$(dd)`.to_i

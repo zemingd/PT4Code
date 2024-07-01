@@ -1,0 +1,1 @@
+p 2**Math.log2(gets.to_i).floor*2-1

@@ -1,0 +1,1 @@
+proc{|a,b|p a <= b ? a : a-1}.call(gets.split.map(&:to_i))

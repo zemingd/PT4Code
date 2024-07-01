@@ -1,0 +1,1 @@
+a,x,c=gets.split;$><<a[0]+x[0]+c[0]

@@ -1,0 +1,1 @@
+_,k,*a=`dd`.split.map &:to_i;p a.group_by{|i|i}.map{|_,v|v.size}.sort.reverse.drop(k).inject 0,:+

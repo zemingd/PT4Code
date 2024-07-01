@@ -1,0 +1,1 @@
+puts 'A' + gets.split.map(&:to_s)[1][0] + 'C'

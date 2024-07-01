@@ -1,0 +1,1 @@
+eval"p %d+%d/2"%gets.split

@@ -1,0 +1,1 @@
+p (gets.split.map(&:to_i)*2).each_slice(2).map{|(l,r)|l+r}.min

@@ -1,0 +1,1 @@
+s=gets;puts s[0]+(s.size-3).to_s+s[-1]

@@ -1,0 +1,1 @@
+puts (STDIN.to_i) ** 3

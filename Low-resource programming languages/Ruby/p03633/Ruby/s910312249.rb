@@ -1,0 +1,1 @@
+puts readlines.drop(1).map(&:to_i).inject(:lcm)

@@ -1,0 +1,1 @@
+a,b,c = gets.chomp.split(' ').map(&:to_i);p  if c-(a-b) > 0 ? c-(a-b):0

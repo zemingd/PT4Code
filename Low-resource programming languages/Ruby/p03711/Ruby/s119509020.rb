@@ -1,0 +1,1 @@
+f=->n{"_012101001010"[n]};puts eval"f[%s]==f[%s]?:Yes: :No"%gets.split

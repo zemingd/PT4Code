@@ -1,0 +1,1 @@
+p gets.split.map{|i| [i.to_i, i.to_i-1]}.flatten.sort[-2..-1].inject :+

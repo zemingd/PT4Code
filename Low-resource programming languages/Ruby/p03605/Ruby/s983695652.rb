@@ -1,0 +1,1 @@
+puts gets.count('9') == 0 ? 'No' : 'Yes' 

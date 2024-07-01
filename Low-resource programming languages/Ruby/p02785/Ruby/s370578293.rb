@@ -1,0 +1,1 @@
+eval"N,K,*A="+`dd`.split*?,;p A.min([0,N-K].max).inject:+

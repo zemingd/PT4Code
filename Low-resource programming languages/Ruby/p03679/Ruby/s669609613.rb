@@ -1,0 +1,1 @@
+$>.<<eval"%d<-(C=%d-%d)?:dangerous:C<0?:safe: :delicious"%gets.split

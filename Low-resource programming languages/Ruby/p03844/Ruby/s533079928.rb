@@ -1,0 +1,1 @@
+a,o,b=gets.split;p a.to_i+((o<",")?1:-1)*b.to_i

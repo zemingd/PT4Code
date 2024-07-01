@@ -1,0 +1,1 @@
+p [*$<][z=1].split.map(&:to_i).sort.find{1e18<z*=_1}?-1:z

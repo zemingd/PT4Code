@@ -1,0 +1,1 @@
+p (i=gets.to_i)*i-gets.to_i

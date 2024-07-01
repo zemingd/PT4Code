@@ -1,0 +1,1 @@
+p %W{SAT FRI THU WED TUE MON SUN}.index(gets.chomp)+1

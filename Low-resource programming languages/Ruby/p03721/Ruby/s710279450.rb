@@ -1,0 +1,1 @@
+a,b,*c=`dd`.split.map &:to_i;c.each_slice(2).sort.any?{|x,y|p x if 0>=b-=y}

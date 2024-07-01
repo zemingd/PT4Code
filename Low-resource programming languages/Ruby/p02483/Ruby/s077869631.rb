@@ -1,0 +1,1 @@
+puts gets.to_s.split(' ').sort

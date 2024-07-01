@@ -1,0 +1,1 @@
+$><<[:Three,:Four][$<.read.index("Y")?1:0]

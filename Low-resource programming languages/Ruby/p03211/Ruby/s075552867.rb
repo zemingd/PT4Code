@@ -1,0 +1,1 @@
+gets;p (0..9).map{|i|($_[i,3].to_i-753).abs}.min

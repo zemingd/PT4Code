@@ -1,0 +1,1 @@
+puts gets.chop.to_s.next

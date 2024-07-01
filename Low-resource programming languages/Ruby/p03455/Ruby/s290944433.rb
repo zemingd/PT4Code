@@ -1,0 +1,1 @@
+gets.split(" ").any(&:even?) ? puts('Even') : puts('Odd')

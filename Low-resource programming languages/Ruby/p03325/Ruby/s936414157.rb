@@ -1,0 +1,1 @@
+gets;p gets.split.map{|i|i.to_i.to_s(2)[/0*$/]}.join.size

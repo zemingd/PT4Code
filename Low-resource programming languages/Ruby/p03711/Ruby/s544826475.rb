@@ -1,0 +1,1 @@
+puts gets.include?("2") ? "No" : "Yes"

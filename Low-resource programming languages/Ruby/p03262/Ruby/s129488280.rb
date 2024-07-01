@@ -1,0 +1,1 @@
+eval"N,X,*A="+`dd`.split*?,;p A.map{|a|a-X}.inject &:gcd

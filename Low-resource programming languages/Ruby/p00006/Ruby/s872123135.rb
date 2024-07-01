@@ -1,0 +1,1 @@
+str = gets.chomp.reverse

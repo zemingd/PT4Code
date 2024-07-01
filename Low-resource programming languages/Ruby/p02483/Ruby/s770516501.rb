@@ -1,0 +1,1 @@
+puts gets.split.map{|e| e.to_i}.sort.join(' ')

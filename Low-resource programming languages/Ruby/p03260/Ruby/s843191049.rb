@@ -1,0 +1,1 @@
+puts`dd`[/2/]?:No: :Yes

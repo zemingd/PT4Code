@@ -1,0 +1,1 @@
+p Range.new(*(eval'_='+`dd`.split*?,).minmax).size-1

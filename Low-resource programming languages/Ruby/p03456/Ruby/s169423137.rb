@@ -1,0 +1,1 @@
+x=Math.sqrt(y=gets.split(&:to_i).join.to_i).to_i;puts x**2==y ? :Yes : :No

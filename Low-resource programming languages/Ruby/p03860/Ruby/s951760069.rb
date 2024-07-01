@@ -1,0 +1,1 @@
+gets.split.each{|_|print(_[0])}

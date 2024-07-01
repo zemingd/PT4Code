@@ -1,0 +1,1 @@
+puts gets.chomp.split(" ").map(&:to_f).reduce{|a, b| a / b}.ceil

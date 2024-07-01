@@ -1,0 +1,1 @@
+_,*T=$<.map &:to_i;p T.reduce &:lcm

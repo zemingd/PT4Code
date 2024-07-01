@@ -1,0 +1,1 @@
+a,b=gets.split.map &:to_i;$><<[a+b>>1,"IMPOSSIBLE"][a+b&1];

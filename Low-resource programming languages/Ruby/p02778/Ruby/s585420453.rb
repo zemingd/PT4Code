@@ -1,0 +1,1 @@
+puts (["x"] * gets.chomp.size).join

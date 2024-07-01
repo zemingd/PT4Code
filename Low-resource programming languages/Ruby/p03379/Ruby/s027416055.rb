@@ -1,0 +1,1 @@
+eval"N,*A="+`dd`.split*?,;b=A.sort;N/=2;A.map{|x|p x<b[N]?b[N]:b[N-1]}

@@ -1,0 +1,1 @@
+puts gets.to_i.times.map{gets.split}.each.with_index.map{|a,i|[a,i].flatten}.sort{|(s1,p1,i1),(s2,p2,i2)|s1!=s2 ? s1<=>s2 : p2.to_i<=>p1.to_i}.map{|i|i[-1]+1}

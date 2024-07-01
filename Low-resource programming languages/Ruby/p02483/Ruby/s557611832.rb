@@ -1,0 +1,1 @@
+gets.split(' ').map(&:to_i).sort!.to_s

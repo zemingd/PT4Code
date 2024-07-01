@@ -1,0 +1,1 @@
+puts gets.chomp =~ /(a(bc|cb)|b(ac|ca)|c(ab|ba))/ ? "Yes" : "No"

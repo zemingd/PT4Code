@@ -1,0 +1,1 @@
+puts line.reverse.strip

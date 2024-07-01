@@ -1,0 +1,1 @@
+gets.tr('eraser', '').tr('erase', '').tr('dreamer', '').tr('dream', '') == '' ? puts('YES') : puts('NO')

@@ -1,0 +1,1 @@
+proc{|a,b,c| puts a[0]+b[1]+c[2]}.call($stdin.read.split("\n"))

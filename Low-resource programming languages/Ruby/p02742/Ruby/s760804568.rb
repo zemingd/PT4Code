@@ -1,0 +1,1 @@
+p eval('/1\b/?2:'+gets.split*?*)/2

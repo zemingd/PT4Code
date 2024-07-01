@@ -1,0 +1,1 @@
+a=gets.to_i;puts a%a.to_s.chars.map(&:to_i).inject(:+)==0?"Yes":"No"

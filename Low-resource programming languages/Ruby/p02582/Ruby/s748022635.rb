@@ -1,0 +1,1 @@
+puts ["",*gets.scan(/R+/)].map(&:size).max

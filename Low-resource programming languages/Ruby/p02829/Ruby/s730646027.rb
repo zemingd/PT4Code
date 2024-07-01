@@ -1,0 +1,1 @@
+puts(6 - gets.chomp.split.map(&:to_i).sum)

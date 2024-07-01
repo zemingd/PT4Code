@@ -1,0 +1,1 @@
+puts [3,7,5].include?(gets.to_i) ? "yes" : "no"

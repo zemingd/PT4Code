@@ -1,0 +1,1 @@
+puts $_.split.map(&:to_i).reduce(&:+).to_s.length until gets.strip.empty?

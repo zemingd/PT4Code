@@ -1,0 +1,1 @@
+while (l=gets.chomp)!="0 0" do puts l.split.reverse.join(' ') end

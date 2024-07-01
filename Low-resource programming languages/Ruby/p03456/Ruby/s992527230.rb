@@ -1,0 +1,1 @@
+$><<[:Yes,:No][(a=eval gets.tr' ','')<=>(b=(a**0.5).to_i)*b]

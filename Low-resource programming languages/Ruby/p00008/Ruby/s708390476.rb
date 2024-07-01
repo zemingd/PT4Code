@@ -1,0 +1,17 @@
+while n = gets
+  n = n.to_i
+  count = 0
+  10.times do |a|
+    10.times do |b|
+      10.times do |c|
+        10.times do |d|
+          if a + b + c + d == n
+            #puts "#{a}, #{b}, #{c}, #{d}"
+            count += 1
+          end
+        end
+      end
+    end
+  end
+  p count
+end

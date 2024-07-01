@@ -1,0 +1,1 @@
+puts gets.chomp <= '2109/04/30' ? 'Heisei' : 'TBD'

@@ -1,0 +1,1 @@
+n=gets.to_i;n.times{a,b,c,d,e,f,g,h=gets.split.map &:to_f;puts ((c-a)*(h-f)-(d-b)*(g-e)).abs<1e10 ?"YES":"NO"}

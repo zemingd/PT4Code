@@ -1,0 +1,1 @@
+eval"N,_,*A="+`dd`.split*?,;*d=0;p d[N.times{d<<A.map{|x|(d[11264070/6**x%6-7]||-1)*10+x}.max}]

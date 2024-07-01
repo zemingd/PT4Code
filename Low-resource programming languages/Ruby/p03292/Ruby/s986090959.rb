@@ -1,0 +1,1 @@
+a=`dd`.split;p eval a.max+?-+a.min

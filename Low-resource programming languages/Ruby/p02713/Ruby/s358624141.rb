@@ -1,0 +1,1 @@
+k=*1..gets.to_i;f=->a{a.product(k).map{|a,b|a.gcd b}};p f[f[k]].sum

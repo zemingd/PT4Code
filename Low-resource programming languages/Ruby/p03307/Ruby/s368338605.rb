@@ -1,0 +1,2 @@
+n = readline.to_i
+puts n.even? ? n : n*2

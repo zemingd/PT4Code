@@ -1,0 +1,1 @@
+require'date';a,b=gets.split.map{|e|Date.new(0,e.to_i,-1).day};puts a==b ?:Yes: :No

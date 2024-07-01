@@ -1,0 +1,1 @@
+p [:Balanced,:Right,:Left][gets.split.map(&:to_i).each_slice(2).to_a.map{|a|a.inject(:+)}.tap{|a,b|break a<=>b}]

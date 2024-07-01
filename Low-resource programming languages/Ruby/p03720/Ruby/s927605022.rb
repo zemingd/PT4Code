@@ -1,0 +1,1 @@
+n,_=gets.split;a=gets(p).split.map &:to_i;1.upto(n.to_i){|i|p a.count{|j|i==j}}

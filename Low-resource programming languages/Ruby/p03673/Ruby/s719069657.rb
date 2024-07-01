@@ -1,0 +1,1 @@
+eval"N,*A="+`dd`.split*?,;N.times{|i|$*[i%2^N%2<1?i:0,0]=A[i]};puts$**" "

@@ -1,0 +1,1 @@
+print gets.split(//).reverse.join

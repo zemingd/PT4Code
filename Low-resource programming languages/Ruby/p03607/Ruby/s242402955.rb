@@ -1,0 +1,1 @@
+gets;p $<.group_by{|i|i}.count{|_,v|v.size%2>0}

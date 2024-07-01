@@ -1,0 +1,1 @@
+puts gets.split.map(&:to_i).sort.each_slice(2).map{|a| a.inject(:+)}.uniq.size == 1 ? :Yes: :No

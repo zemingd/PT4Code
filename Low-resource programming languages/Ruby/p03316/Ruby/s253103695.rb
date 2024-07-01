@@ -1,0 +1,1 @@
+puts gets.to_i%$_.split('').map(&:to_i).inject(:+)==0?'Yes':'No'

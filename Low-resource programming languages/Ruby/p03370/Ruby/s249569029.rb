@@ -1,0 +1,1 @@
+eval"N,*A="+`dd`.split*?,;p N+eval(A*?-)/A.min

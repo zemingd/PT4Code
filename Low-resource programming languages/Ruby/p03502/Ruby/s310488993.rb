@@ -1,0 +1,1 @@
+n = gets.chomp; puts({ true => 'Yes', false => 'No' }[n.to_i % n.chars.map(&:to_i).inject(&:+) == 0])

@@ -1,0 +1,1 @@
+puts ("357".include?(gets.chomp)?"YES":"NO")

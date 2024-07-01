@@ -1,0 +1,1 @@
+p eval(gets.sub(' ', ?-))+1

@@ -1,0 +1,1 @@
+x,y=gets.split.map{|z|(4460832>>z.to_i*2)%4};puts x==y ?:Yes:'No'

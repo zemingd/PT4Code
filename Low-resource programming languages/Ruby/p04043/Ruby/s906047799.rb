@@ -1,0 +1,1 @@
+gets;puts$<.map(&:chomp).sort*''

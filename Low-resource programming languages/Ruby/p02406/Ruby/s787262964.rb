@@ -1,0 +1,1 @@
+1.upto(n=gets.chomp.to_i){|i| print("#{i} ") if(i%3==0 || i%10==3)};puts

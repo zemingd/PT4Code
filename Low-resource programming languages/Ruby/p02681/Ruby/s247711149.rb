@@ -1,0 +1,1 @@
+puts gets.chomp.start_with?(gets.chomp) ? "Yes" : "No"

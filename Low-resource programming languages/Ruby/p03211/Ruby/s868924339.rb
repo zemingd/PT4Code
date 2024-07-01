@@ -1,0 +1,1 @@
+puts gets.chomp.scan(/.../).map {|x| (x.to_i - 753).abs }.min

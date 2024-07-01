@@ -1,0 +1,1 @@
+puts /hi/.match(gets) ? :Yes : :No

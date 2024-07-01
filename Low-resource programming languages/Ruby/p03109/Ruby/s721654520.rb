@@ -1,0 +1,1 @@
+puts ["Heisei","TBD","Heisei"][gets.scan(/\d+/).map(&:to_i) <=> [2019,4,30]]

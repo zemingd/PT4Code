@@ -1,0 +1,2 @@
+S = gets
+T = gets

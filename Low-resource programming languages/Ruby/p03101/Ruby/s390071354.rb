@@ -1,0 +1,1 @@
+p -Matrix[a.].det

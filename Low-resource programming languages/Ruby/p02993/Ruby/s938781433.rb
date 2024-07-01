@@ -1,0 +1,1 @@
+puts /(.)\1/!~gets?'Good':'Bad'

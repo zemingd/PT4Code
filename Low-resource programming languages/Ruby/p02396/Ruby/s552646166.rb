@@ -1,0 +1,1 @@
+$stdin.map(&:chomp).each_with_index { |e, i| puts "Case#{i + 1}:" + e }

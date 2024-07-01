@@ -1,0 +1,1 @@
+puts /([0-9])\1\1/.match(gets) ? :Yes: :No

@@ -1,0 +1,1 @@
+puts gets.chop.gsub("eraser","@").gsub("dreamer","@").gsub("erase","@").gsub("dream","@").chars.all?{|c|c==?@} ? :YES : :NO

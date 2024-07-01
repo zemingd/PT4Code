@@ -1,0 +1,1 @@
+puts gets.split.map{|w| w[0]}.join

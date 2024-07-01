@@ -1,0 +1,1 @@
+puts $<.to_a.drop(1).map{|s|s.chomp.chars}.reject{|a|a.all?{|c|c=='.'}}.transpose.reject{|a|a.all?{|c|c=='.'}}.transpose.map{|a|a.join}

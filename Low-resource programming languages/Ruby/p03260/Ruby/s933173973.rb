@@ -1,0 +1,5 @@
+A, B = gets.split.map(&:to_i)
+
+ans = (A * B).odd? ? 'Yes' : 'No'
+
+puts ans

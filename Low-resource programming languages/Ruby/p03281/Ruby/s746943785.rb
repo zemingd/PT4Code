@@ -1,0 +1,1 @@
+puts gets.to_i >= 105 ? 1 : 0

@@ -1,0 +1,1 @@
+puts"a %s b"%%w{== > <}[eval gets.split*"<=>"]

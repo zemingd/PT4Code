@@ -1,0 +1,1 @@
+puts (/9/ =~ gets.chomp).nil? ? 'No' : 'Yes'

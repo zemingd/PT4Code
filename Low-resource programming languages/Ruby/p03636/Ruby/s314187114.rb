@@ -1,0 +1,1 @@
+puts gets.gsub(/^(.)(.*)(.)$/) { $1 + $2.size.to_s + $3 }

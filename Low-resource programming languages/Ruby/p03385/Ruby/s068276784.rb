@@ -1,0 +1,1 @@
+puts gets.split("").uniq.size=="3\n"?"Yes":"No"

@@ -1,0 +1,1 @@
+proc{|a,b|puts 100**a*b == 100 ? 101 : 100**a*b}.call(gets.split.map(&:to_i))

@@ -1,0 +1,1 @@
+puts (eval gets.split*'+')==17? :YES : :NO

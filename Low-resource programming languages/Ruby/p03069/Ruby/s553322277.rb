@@ -1,0 +1,1 @@
+n=gets.to_i;s=gets.chomp;s= s[/\#.*/];p [s.nil? ? 0 : s.count(?.),s.nil? ? 0 : (s=s.reverse[/\..*/]).nil? ? 0 : s .count(?#)].min

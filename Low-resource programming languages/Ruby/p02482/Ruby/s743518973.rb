@@ -1,0 +1,1 @@
+puts ["a < b", "a == b", "a > b"][gets.split.map(&:to_i).reduce(&:<=>).next]

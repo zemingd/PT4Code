@@ -1,0 +1,1 @@
+puts gets.chomp.split(" ").map(&:to_i).sum >= 22 ? "bust" : "win"

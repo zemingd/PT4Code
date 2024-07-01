@@ -1,0 +1,1 @@
+puts gets.split('').uniq.size == 1 ? 'No' : 'Yes'

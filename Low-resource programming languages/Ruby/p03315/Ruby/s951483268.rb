@@ -1,0 +1,1 @@
+p gets.chars.zip(["1"]*4).map(&:join).map(&:to_i).inject(:+)

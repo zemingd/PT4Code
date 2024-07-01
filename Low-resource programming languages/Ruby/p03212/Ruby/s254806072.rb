@@ -1,0 +1,1 @@
+puts %w(0 3 5 7).repeated_permutation(9).lazy.select {|arr| arr.uniq.count == 3 }.map {|arr| arr.join.to_i }.take_while {|n| n <  1000 }.count

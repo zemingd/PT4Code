@@ -1,0 +1,1 @@
+p eval(gets.split*'.to_s  ').size

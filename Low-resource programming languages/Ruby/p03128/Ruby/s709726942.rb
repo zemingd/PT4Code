@@ -1,0 +1,1 @@
+*c=0,2,5,5,4,5,6,3,7,6;eval"N,_,*A="+`dd`.split*?,;d=[0];1.upto(N){|i|q=A.map{|x|i>=c[x]&&d[t=i-c[x]]?d[t]*10+x:p}.compact;d.<<q[0]&&q.max};p d[N]

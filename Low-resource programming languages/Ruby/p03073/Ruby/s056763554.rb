@@ -1,0 +1,1 @@
+a=x=y=0;gets.chars{|c|n=c.hex;n!=a&&x+=1;n!=$.&&y+=1;$.,a=a,$.};p~-[x,y].min

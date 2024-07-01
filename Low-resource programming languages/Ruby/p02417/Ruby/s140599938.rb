@@ -1,0 +1,1 @@
+p $stdin.map(&:chomp)

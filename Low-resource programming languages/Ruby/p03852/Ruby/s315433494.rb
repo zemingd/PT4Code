@@ -1,0 +1,1 @@
+puts /[aeiou]/.match(gets)?:vowel: :consonant

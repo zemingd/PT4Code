@@ -1,0 +1,1 @@
+puts gets.split.min

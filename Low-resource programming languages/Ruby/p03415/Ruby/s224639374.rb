@@ -1,0 +1,1 @@
+puts Array.new(3) { gets }.map.with_index{|s, i| s[i] }.join

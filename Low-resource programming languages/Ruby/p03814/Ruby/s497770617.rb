@@ -1,0 +1,1 @@
+print("#{gets.scan(/A[A-Z]*Z/).shift.length}")

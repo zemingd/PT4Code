@@ -1,0 +1,1 @@
+puts gets.chomp.split("").each_cons(3).any?{|i|i.uniq.count==1} ? 'Yes' : 'No'

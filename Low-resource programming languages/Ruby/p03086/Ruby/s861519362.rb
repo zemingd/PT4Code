@@ -1,0 +1,1 @@
+p gets.scan(/[ATGC]*/).map(&:size).max

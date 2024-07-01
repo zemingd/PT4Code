@@ -1,0 +1,27 @@
+require 'prime'
+
+def main
+  puts "input"
+  n = gets.to_i
+  line = gets.chomp.split(' ').map(&:to_i)
+
+  test_run(n, line)
+end
+
+def test_run(n, line)
+  cnt = 0
+  line.each do |i|
+    factors = Prime.prime_division i
+    print "#{i} "
+    p factors
+    factors.each do |f|
+      cnt += f[1] if (f[0] == 2)
+    end
+  end
+  puts cnt
+  cnt
+end
+
+if __FILE__ == $PROGRAM_NAME
+  main
+end

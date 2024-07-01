@@ -1,0 +1,1 @@
+puts 'aeiou'.include?(STDIN.getc) ? 'vowel' : 'consonant'

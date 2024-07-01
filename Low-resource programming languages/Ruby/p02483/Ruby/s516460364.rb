@@ -1,0 +1,1 @@
+print gets.to_s.split(' ').map{|temp| temp.to_i}.sort,"\n"

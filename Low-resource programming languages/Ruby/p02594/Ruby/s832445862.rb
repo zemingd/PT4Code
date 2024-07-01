@@ -1,0 +1,1 @@
+puts+gets.to_i+%3E%3D+30+%3F+%22Yes%22+%3A+%22No%22%0A

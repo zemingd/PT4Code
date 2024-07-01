@@ -1,0 +1,1 @@
+puts gets.split("").include?("9")? :Yes : :No

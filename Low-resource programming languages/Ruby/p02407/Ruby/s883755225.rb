@@ -1,0 +1,1 @@
+array = []; $stdin.gets.chomp.to_i.times{|i| array[i] = $stdin.gets.chomp}; array.reverse.each{|i| print i, " "}

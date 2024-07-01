@@ -1,0 +1,1 @@
+p (gets.scan(/R+/).max||"").size

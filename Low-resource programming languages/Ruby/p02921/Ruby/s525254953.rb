@@ -1,0 +1,1 @@
+puts gets.chomp.unpack('C*').zip(gets.chomp.unpack('C*')).count{|s, t| s == t}

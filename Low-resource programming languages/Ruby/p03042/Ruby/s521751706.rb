@@ -1,0 +1,1 @@
+s=gets.to_i;puts %w(AMBIGUOUS MMYY YYMM NA)[(s<100||s>1299?2:0)+((s%=100)<1||s>12?1:0)]

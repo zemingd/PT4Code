@@ -1,0 +1,2 @@
+a, b = gets.split.map{ |s| s.to_i }
+puts "#{a / b} #{a % b} #{(a.to_f/ b.to_f).round(6)}"

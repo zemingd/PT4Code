@@ -1,0 +1,1 @@
+a=[];gets.chomp.split.map(&:to_i)[0].times{l=gets.chomp.chars;a<<l if l.include?(?#)};a.transpose.select{|x| x.include?(?#)}.transpose.each{|x|puts x.join}

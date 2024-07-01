@@ -1,0 +1,1 @@
+p gets.split(?S).map(&:size).max

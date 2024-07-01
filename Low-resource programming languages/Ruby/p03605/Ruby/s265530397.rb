@@ -1,0 +1,1 @@
+puts gets.chomp.split("").find_index(?9) ? "Yes" : "No"

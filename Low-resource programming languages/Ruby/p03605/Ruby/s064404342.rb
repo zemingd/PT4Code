@@ -1,0 +1,1 @@
+STDIN.gets.chomp.split.any?{|x|x='9'} ? puts('Yes') : puts('No')

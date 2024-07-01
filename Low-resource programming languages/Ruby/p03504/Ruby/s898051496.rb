@@ -1,0 +1,1 @@
+s=0;p gets.to_i.times.map{gets.split.map(&:to_i)[0,2].zip([-0.5,0.5]).map{|a,b|a+b}.zip([1,0])}.flatten(1).sort.map{|i|s+=(i[1]==0?-1:1)}.max

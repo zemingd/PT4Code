@@ -1,0 +1,1 @@
+puts gets.chomp.gsub(/(hi)+/, "") == "" ? "Yes" : "No"

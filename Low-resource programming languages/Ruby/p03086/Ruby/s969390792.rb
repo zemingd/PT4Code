@@ -1,0 +1,1 @@
+p ans = gets.chomp.scan(/[ATCG]+/).map(&:length).max ? ans : 0

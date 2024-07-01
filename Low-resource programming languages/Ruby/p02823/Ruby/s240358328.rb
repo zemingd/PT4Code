@@ -1,0 +1,1 @@
+eval"N,A,B="+`tr \\  ,`;p (t=B-A)/2+t%2*[N-B+1,A].min

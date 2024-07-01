@@ -1,0 +1,1 @@
+putc STDIN.getbyte+1

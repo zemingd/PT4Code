@@ -1,0 +1,2 @@
+a, b = gets.chop.split.map(&:to_i)
+p [a + b, a - b, a * b].max

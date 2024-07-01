@@ -1,0 +1,1 @@
+p gets.to_i.times.map{gets.to_i}.reduce(1){|x, y| x.lcm y}

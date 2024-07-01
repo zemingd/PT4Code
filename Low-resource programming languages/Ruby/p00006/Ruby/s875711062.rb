@@ -1,0 +1,2 @@
+printf gets.chomp.reverse 
+

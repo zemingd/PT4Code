@@ -1,0 +1,1 @@
+a,b,c=gets.split.map &:to_i;(1..b).each{|x|if(x*a%b==c);puts "YES";exit(0);end};puts "NO"

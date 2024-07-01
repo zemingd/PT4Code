@@ -1,0 +1,1 @@
+puts gets.match(/(\d)\1{2}/) ? "Yes" : "No"

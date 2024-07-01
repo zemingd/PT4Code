@@ -1,0 +1,1 @@
+puts "#{ gets.split[0].to_i * gets.split[1].to_i } #{ gets.split[0].to_i * 2 + gets.split[1].to_i * 2 }

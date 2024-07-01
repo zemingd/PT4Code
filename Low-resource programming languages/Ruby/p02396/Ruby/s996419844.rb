@@ -1,0 +1,11 @@
+i = 0
+loop do
+  i += 1
+  number = gets.to_i
+  if number == 0
+    break
+  # else
+  #   puts "case #{i}: #{number}"
+  end
+  puts "case #{i}: #{number}"
+end

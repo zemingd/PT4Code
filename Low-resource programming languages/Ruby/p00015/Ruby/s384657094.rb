@@ -1,0 +1,1 @@
+def n;gets.to_i;end;n.times{puts (a=n+n)>=10**80?:overflow:a}

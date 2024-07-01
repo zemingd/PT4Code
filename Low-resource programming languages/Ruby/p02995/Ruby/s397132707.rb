@@ -1,0 +1,1 @@
+eval"F=->x{~-%d/x-%d/x};p F[c=%d]+F[d=%d]-F[c.lcm d]-F[1]"%gets.split

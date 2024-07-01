@@ -1,0 +1,1 @@
+a=gets.split(" ").map{|b| b.to_i};p a[0]-a[1]+1
