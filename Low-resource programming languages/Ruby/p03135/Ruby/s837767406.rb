@@ -1,1 +1,0 @@
-eval"p %f/%f"%gets.split

@@ -1,1 +1,0 @@
-eval"N,*A="+`dd`.split*?,;b,c=A.sort[-1+N/=2,N];A.map{|x|p x<c ?c:b}

@@ -1,1 +1,0 @@
-p gets.bytes.max*9+$_.sum-650

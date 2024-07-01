@@ -1,1 +1,0 @@
-s=$<.read;%w(AC WA TLE RE).each{$><<_1+" x #{s.scan(_1).size}\n"}

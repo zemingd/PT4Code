@@ -1,1 +1,0 @@
-while l=gets do a,b=l.split.map(&:to_i);p (a+b).to_s.length end

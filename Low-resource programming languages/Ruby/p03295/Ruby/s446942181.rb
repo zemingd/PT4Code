@@ -1,1 +1,0 @@
-l=0;gets;p $<.map{|l|l.split.reverse}.sort.count{|a,b|l<=b.to_i&&l=a.to_i}

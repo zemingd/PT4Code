@@ -1,1 +1,0 @@
-puts STDIN.gets.chomp.reverse

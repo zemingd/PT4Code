@@ -1,1 +1,0 @@
-puts readline.split(" ").map(&:to_i).join % 4 == 0 ? "NO" : "YES"

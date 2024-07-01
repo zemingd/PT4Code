@@ -1,1 +1,0 @@
-n,*d=`dd`.split.map(&:to_i);p d.reduce(:gcd)

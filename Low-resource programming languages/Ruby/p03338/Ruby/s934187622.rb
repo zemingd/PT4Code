@@ -1,1 +1,0 @@
-n=gets.to_i;a=gets.chars;p (1...n).max_by{|i|(a[0,i]&a[i,n]).size}

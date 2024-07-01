@@ -1,1 +1,0 @@
-puts gets.chomp.chars.sort.join < gets.chomp.chars.sort { |a, b| b <=> a }.join ? 'Yes' : 'No'

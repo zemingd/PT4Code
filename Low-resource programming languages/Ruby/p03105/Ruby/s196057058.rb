@@ -1,1 +1,0 @@
-p (an=(a=gets.split.map &:to_i)[1]/a[0])<a[2]?an:a[2]

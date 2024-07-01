@@ -1,1 +1,0 @@
-puts (gets.chomp.gsub(" ", "").chars.sort.join.eql? 'abc') ? 'Yes':'No'

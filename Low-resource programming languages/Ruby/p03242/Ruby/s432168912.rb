@@ -1,1 +1,0 @@
-gets.chomp.chars {|c| print c=="1" ? "9" : "1"}

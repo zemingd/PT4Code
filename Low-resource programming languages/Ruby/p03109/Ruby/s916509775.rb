@@ -1,1 +1,0 @@
-puts gets.split("/").join.to_i>20190430 ? "TBD" : "Heisei"

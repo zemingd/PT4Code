@@ -1,1 +1,0 @@
-puts ((a=gets).chars|(b=gets).chars).size>2||a.size<b.size ? :Yes: :No

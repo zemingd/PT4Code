@@ -1,1 +1,0 @@
-puts "Crhistmas"+" Eve"*(25-gets.to_i)

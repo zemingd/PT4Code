@@ -1,1 +1,0 @@
-proc{|a,b,c,k|puts [(a-b).abs,(b-c).abs].min <= k ? "Yes" : "No"}.call(gets.split.map(&:to_i))

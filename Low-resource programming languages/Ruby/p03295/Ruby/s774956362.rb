@@ -1,1 +1,0 @@
-l=0;gets;p$<.map{|l|[l[/ .+/].to_i,l.to_i]}.sort.count{|a,b|l<=b&&l=a}

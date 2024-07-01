@@ -1,1 +1,0 @@
-puts gets().split(/\s+/).map{|v|v.to_i}.sort().join(" ")

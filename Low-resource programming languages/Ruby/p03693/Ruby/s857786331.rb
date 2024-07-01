@@ -1,1 +1,0 @@
-puts (gets.split*"").to_i&3<1?:YES: :NO

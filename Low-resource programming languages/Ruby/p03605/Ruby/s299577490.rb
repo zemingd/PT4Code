@@ -1,1 +1,0 @@
-puts gest.include?('9') ? 'Yes':'No'

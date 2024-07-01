@@ -1,1 +1,0 @@
-puts gets.tr('/','').to_i <= 20190430 ? 'Heisei' : 'TBD'

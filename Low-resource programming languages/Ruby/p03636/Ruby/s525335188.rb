@@ -1,1 +1,0 @@
-puts [gets.chomp].map{|s| s[0] + "#{s.size-2" + s[-1]}

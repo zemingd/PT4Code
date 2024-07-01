@@ -1,1 +1,0 @@
-puts gets.to_i<10 ? 0 : 10

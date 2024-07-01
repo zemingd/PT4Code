@@ -1,1 +1,0 @@
-puts gets.slice(/A.*Z/).size

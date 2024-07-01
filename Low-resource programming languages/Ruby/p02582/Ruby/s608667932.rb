@@ -1,2 +1,0 @@
-gets=~/R+/
-puts ($&||"").size

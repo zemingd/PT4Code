@@ -1,1 +1,0 @@
-gets;h={};$<.map{|s|h[s]^=0};p h.count{|_,v|v}

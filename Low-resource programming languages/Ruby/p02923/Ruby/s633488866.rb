@@ -1,1 +1,0 @@
-p (_=`dd`.split.map(&:to_i))[1,_[0]].slice_when{|b,a|b<a}.to_a.map(&:size).max-1

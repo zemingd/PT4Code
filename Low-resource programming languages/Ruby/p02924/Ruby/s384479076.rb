@@ -1,1 +1,0 @@
-n=eval`dd`;p n*~-n/2

@@ -1,1 +1,0 @@
-puts gets.strip.gsub(/1/, 'x').gsub(/9/, '1').gsub(/x/, '9')

@@ -1,1 +1,0 @@
-p (gets.chars & gets.chars).count

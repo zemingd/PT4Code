@@ -1,1 +1,0 @@
-n=gets.chop;puts n.to_i%n.chars.map(&:to_i).inject(:+)<1 ? :Yes: :No

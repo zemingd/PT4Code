@@ -1,1 +1,0 @@
-puts gets.to_s.gsub(/,/,' ')

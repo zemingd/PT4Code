@@ -1,1 +1,0 @@
-puts gets.split.map(&:to_i) == gets.split("-").map {|s| s.size} ? "Yes" : "No"

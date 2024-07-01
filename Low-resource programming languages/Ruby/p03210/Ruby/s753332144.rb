@@ -1,1 +1,0 @@
-puts [3,5,7].include?(gets.hex)?'YES':'NO'

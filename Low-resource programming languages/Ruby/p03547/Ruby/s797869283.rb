@@ -1,1 +1,0 @@
-x,y=gets.split;puts '=><'[x<=>y]

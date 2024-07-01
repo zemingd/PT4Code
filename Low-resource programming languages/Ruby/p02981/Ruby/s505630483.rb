@@ -1,1 +1,0 @@
-eval "puts([%d*%d, %d].min)"%gets.chomp.split.map(&:to_i)

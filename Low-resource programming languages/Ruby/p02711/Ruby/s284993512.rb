@@ -1,1 +1,0 @@
-gets.chomp.include?('7') ? puts('Yes') : puts('No')

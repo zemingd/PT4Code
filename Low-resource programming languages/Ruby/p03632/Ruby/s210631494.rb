@@ -1,1 +1,0 @@
-eval"A,B,C,D="+`tr ' ' ,`;p [[B,D].min-[A,C].max,0].max

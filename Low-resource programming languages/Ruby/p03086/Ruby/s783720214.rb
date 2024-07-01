@@ -1,1 +1,0 @@
-p gets.split(/[^ACGT]/).map(&:size).max

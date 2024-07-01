@@ -1,1 +1,0 @@
-p (1..gets.to_i).map{gets.split[1..-1]}.inject(:&).size

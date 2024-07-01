@@ -1,1 +1,0 @@
-puts gets.to_i.times.map{gets.to_i}.inject(1){|x,s| x.lcm s}

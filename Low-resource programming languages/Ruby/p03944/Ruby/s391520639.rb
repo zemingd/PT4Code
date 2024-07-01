@@ -1,1 +1,0 @@
-(w,h),*z=$<.map{|s|s.split.map &:to_i};s=t=0;z.map{|x,y,a|a<2?x>s&&s=x:a<3?x<w&&w=x:a<4?y>t&&t=y:y<h&&h=y};p [0,w-s].max*[0,h-t].max

@@ -1,1 +1,0 @@
-p (1...gets.size).count{|i|$_[i].hex!=i%2^$_[0].hex}

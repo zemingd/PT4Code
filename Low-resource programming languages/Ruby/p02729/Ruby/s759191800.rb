@@ -1,1 +1,0 @@
-p gets.split.sum{_1.to_i*~-_1.to_i/2}

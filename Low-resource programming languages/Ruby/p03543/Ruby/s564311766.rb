@@ -1,1 +1,0 @@
-puts gets.chomp.each_char.each_cons(3).any?{|arr| arr.uniq.count == 1 } ? 'Yes' : 'No'

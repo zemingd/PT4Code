@@ -1,1 +1,0 @@
-"=><"[gets.split.map(&:hex).inject(:<=>)]

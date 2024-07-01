@@ -1,1 +1,0 @@
-puts gets(nil).split("\n").map {|e| e.split(" ").map(&:to_i).sum.to_s.size }

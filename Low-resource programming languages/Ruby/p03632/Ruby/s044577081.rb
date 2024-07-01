@@ -1,1 +1,0 @@
-A,B,C,D=gets.split;p ([*A...B]&[*C...D]).size

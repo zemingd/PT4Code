@@ -1,1 +1,0 @@
-p eval gets.chop!+?*+$_+?-+gets

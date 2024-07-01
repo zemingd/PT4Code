@@ -1,1 +1,0 @@
-puts gets.to_i>eval(gets.tr(" ",?+))?:No: :Yes

@@ -1,1 +1,0 @@
-n=gets.to_i;p [*1..32].map{|i|[*2..9].map{|j|i**j}}.flatten.select{|c|n>=c}.max

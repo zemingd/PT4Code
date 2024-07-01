@@ -1,1 +1,0 @@
-puts gets.chpmp.sort == "abc" ? "Yes" : "No"

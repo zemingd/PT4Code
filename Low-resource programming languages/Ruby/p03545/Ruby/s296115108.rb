@@ -1,1 +1,0 @@
-a,b,c,d=gets.split '';x=[?+,?-];8.times{|i|s=a+x[i%2]+b+x[i/2%2]+c+x[i/4]+d;if 7==eval(s)then puts s+'=7';exit;end}

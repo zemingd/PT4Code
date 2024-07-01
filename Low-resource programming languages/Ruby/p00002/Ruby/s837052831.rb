@@ -1,1 +1,0 @@
-while gets do a,b=$_.split.map(&:to_i);p (a+b).to_s.size end

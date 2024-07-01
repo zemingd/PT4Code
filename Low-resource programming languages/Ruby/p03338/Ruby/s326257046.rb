@@ -1,1 +1,0 @@
-n=gets.to_i;s=gets.chars;p (1..n).map{|i|(s[0,i]&s[i..n]).size}.max

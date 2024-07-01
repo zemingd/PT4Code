@@ -1,1 +1,0 @@
-a = [];gets.chomp.chars{|c|if c=='B' then a.pop else a<<c end};puts a*''

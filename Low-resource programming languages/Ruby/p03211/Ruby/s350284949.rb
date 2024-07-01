@@ -1,1 +1,0 @@
-puts gets.chomp.chars.each_cons(3).with_object([]) {|*x, acc| acc << (x.join("").to_i - 753).abs }.min

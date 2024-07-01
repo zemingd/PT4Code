@@ -1,1 +1,0 @@
-a,b=readlines.map(&:to_i);puts a*a-b

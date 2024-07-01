@@ -1,1 +1,0 @@
-gets;a=gets.split.map(&:to_i);n=a.count{|e|e<0}%2*2;a.map! &:abs;p a.reduce(:+)-n*a.min

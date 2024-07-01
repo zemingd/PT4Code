@@ -1,1 +1,0 @@
-puts gets(p)=~/Y/?"Four":"Three"

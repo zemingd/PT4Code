@@ -1,1 +1,0 @@
-puts eval("a+a**2+a**3".gsub(/a/, gets.chomp))

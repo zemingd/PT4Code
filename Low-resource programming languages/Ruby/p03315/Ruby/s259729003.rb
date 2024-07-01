@@ -1,1 +1,0 @@
-p gets.chars.zip([1]*4).map{|r|r.join.to_i}.inject(:+)

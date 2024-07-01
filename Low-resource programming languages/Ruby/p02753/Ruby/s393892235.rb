@@ -1,1 +1,0 @@
-puts gets.chop.chars.uniq.count > 1 ? 'Yes' : 'No'

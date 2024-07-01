@@ -1,6 +1,0 @@
-a,b,c,d = gets.strip.split.map(&:to_i)
-s = b/c-((a-1)/c)
-t = b/d-((a-1)/d)
-e = c.lcm(d)
-u = b/e-((a-1)/e)
-puts b-a+1-(s+t-u)

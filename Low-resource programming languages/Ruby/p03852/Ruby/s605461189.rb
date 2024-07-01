@@ -1,1 +1,0 @@
-puts 'aiueo'.index(gets.chomp) ? 'vowel' : 'consonant'

@@ -1,1 +1,0 @@
-n,m,*a=`dd`.split;(?1..n).map{|i|p a.count i}

@@ -1,1 +1,0 @@
-3.times.map{|i|print gets[i]}

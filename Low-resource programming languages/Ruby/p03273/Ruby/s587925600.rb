@@ -1,1 +1,0 @@
-gets;def a(b);b.delete_if{|i|i=~/^\.+$/}.map(&:chars).transpose.map(&:join);end;puts a(a([*$<]))

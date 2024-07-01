@@ -1,1 +1,0 @@
-p gets.split.sort == %w[5 5 7] ? 'Yes' : 'No' 

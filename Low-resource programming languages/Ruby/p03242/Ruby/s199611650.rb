@@ -1,1 +1,0 @@
-puts gets.chomp.gsub('1','!').gsub('9','1').gsub('!','9')

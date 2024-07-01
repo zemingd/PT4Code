@@ -1,1 +1,0 @@
-puts ['a', 'o', 'e', 'u', 'i'].include?(gets.chomp) ? 'vowel' : 'consonant'

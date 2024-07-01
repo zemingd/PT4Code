@@ -1,1 +1,0 @@
-puts (a * b).odd? ? "Odd" : "Even"

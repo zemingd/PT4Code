@@ -1,1 +1,0 @@
-y=[x=0]*31;p gets.to_i.times.map{s,t,c=gets.split.map &:to_i;[[s-0.5,0,c],[t+0.5,1,c]]}.flatten(1).sort.map{|i|t=(i[1]==0?1:-1);y[i[2]]+=t;(x+=t)-(y[i[2]]>1?1:0)}.max

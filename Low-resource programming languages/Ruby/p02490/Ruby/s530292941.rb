@@ -1,1 +1,0 @@
-while a=gets.split.map{|x|x.to_i} do if a==[0,0] then break end;puts (a[0]>a[1])?a.reverse.join(' '):a.join(' ') end

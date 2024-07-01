@@ -1,1 +1,0 @@
-gets;p$<.map{|s|s.split[1..-1]}.reduce(:&).size

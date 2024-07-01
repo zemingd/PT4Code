@@ -1,1 +1,0 @@
-p proc{ |n,d| (n..10000).select{ |i| i.to_s.chars.all?{ |j| !d.include?(j) }}.first}.(gets.to_i,gets.split)

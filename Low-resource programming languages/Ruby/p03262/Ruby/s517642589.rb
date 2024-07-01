@@ -1,1 +1,0 @@
-_,X=gets.split.map &:to_i;p gets.split.map{|i|i.to_i-X}.inject :gcd

@@ -1,1 +1,0 @@
-X=gets.to_i;puts (r=*-99..150).product(r).find{|a,b|b**5-a**5==X}

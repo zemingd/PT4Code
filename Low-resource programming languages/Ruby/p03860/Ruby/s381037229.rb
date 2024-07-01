@@ -1,1 +1,0 @@
-puts gets.split.map{|n| n[0]}.join

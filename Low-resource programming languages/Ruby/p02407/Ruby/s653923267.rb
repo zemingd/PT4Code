@@ -1,2 +1,0 @@
-gets
-puts gets.reverse

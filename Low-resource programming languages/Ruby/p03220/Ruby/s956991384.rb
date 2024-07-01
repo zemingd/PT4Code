@@ -1,1 +1,0 @@
-N=gets.to_i;T,A=eval s='gets.split.map &:to_i';H=eval s;p (1..N).min_by{|x|(A-T+H[x-1]*0.006).abs};

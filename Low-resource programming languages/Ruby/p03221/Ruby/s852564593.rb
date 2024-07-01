@@ -1,1 +1,0 @@
-_,*a=[*$<].map{|s|s.split &:to_i};a.map{|i,j|puts"%06d"*2%[i,a.count{|k,l|k==i&&l<=j}]}

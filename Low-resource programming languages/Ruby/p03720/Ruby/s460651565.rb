@@ -1,1 +1,0 @@
-gets(p).to_i.times{|i|p$_.split[2..-1].count"#{i+1}"}

@@ -1,1 +1,0 @@
-puts gets.chomp.split(" ").map{|str| str[0]}.inject(:+)

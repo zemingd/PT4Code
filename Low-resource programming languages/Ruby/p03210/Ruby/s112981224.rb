@@ -1,1 +1,0 @@
-puts [:NO,:YES][168[gets.to_i]]

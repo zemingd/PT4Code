@@ -1,1 +1,0 @@
-p [gets.chop, gets].map(&:chars).transpose.count {|a| a[0] == a[1]}

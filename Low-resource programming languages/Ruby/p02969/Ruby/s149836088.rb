@@ -1,1 +1,0 @@
-puts 3 * (n = gets.to_i ** 2)

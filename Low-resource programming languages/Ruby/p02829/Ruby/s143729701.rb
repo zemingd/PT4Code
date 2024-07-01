@@ -1,1 +1,0 @@
-puts ['1', '2', '3'].reject{ |a| a == gets.chop }.reject{ |a| a == gets.chop }

@@ -1,1 +1,0 @@
-puts "=><"[gets.split.tap{|x,y|break x<=>y}]

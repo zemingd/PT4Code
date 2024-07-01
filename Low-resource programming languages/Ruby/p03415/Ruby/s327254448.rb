@@ -1,1 +1,0 @@
-puts gets.split().slice(1.1) + gets.split().slice(2.1) + gets.split().slice(3.1)

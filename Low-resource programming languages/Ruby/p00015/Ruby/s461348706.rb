@@ -1,1 +1,0 @@
-gets;15.times{puts((a=gets.to_i+gets.to_i)>=10**80?"overfllow":a)}

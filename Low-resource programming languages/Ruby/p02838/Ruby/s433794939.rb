@@ -1,1 +1,0 @@
-p (gets.to_i-1)*gets.split.map(&:to_i).inject(:+)%1000000007

@@ -1,1 +1,0 @@
-puts gets.chomp.chars.any?{_1=="7"} ? "Yes" : "No"

@@ -1,1 +1,0 @@
-while (l=gets)!="0 0\n" do puts l.split.map(&:to_i).sort.join(' ') end

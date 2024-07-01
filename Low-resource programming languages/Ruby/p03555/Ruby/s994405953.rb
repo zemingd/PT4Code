@@ -1,1 +1,0 @@
-puts gets.chop==gets.chop.reverse? :YES: :NO

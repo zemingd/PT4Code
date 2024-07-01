@@ -1,1 +1,0 @@
-puts (a = gets).chomp.split(" ").map(&:to_i)[0].fdiv(a.chomp.split(" ").map(&:to_i)[1])

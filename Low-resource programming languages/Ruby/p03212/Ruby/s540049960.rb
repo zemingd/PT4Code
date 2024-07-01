@@ -1,1 +1,0 @@
-gets;p (0..$_.size).flat_map{|i|[3,5,7].repeated_permutation(i).to_a.select{|e|e.join.to_i<=$_.to_i&&e.uniq.size>2}}.size

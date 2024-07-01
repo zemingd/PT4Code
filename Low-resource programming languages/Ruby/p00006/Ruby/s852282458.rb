@@ -1,1 +1,0 @@
-puts gets.reverse[1..-1]

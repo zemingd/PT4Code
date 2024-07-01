@@ -1,1 +1,0 @@
-puts gets.chomp =~ /(.)\1\1/ ? 'Yes' : 'No'

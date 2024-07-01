@@ -1,1 +1,0 @@
-eval'p (%d..%d).count{|i|"#{i}".reverse=="#{i}"}'%gets.split

@@ -1,1 +1,0 @@
-p (m=gets.split.map(&:to_i).sort)[0]+m[1]+m[2]*2**gets.to_i

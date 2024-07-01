@@ -1,1 +1,0 @@
-a,b,c,x=4.times.map{gets.to_i};e=0;(0..a).each{|i|(0..b).each{|j|(0..c).each{|k|e+=1 if 500*i+100*j+50*k==x}}};p e

@@ -1,1 +1,0 @@
-eval'N,A,B,C,*L='+`dd`.split*?,;p (1..4**N).map{|s|x=0,0,m=0,-1e9;L.map{|l|(x[s&3]+=l)>l&&m+=10;s/=4};x&[0]!=[]?1e9:m+(x[0]-A).abs+(x[1]-B).abs+(x[2]-C).abs}.min

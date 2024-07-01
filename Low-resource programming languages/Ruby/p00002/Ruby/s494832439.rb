@@ -1,1 +1,0 @@
-puts gets.split.map{|i| i.to_i }.inject(:+).to_s.length

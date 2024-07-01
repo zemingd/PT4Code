@@ -1,1 +1,0 @@
-p"SATFRITHUWEDTUEMONSUN".index(gets)/3+1

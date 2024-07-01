@@ -1,1 +1,0 @@
-A,B=`factor`.lines.map &:split;p (A[1..-1]&B[1..-1]).size+1

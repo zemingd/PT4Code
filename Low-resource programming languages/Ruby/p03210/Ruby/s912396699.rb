@@ -1,1 +1,0 @@
-puts [nil, "NO", "NO", "YES", "NO", "YES", "NO", "YES", "NO", "NO"][gets.to_i]

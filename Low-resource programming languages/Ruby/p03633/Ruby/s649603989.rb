@@ -1,1 +1,0 @@
-gets;p$<.map(&:to_i).inject &:lcm

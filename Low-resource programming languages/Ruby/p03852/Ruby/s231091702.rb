@@ -1,1 +1,0 @@
-puts 'aiueo'.include?(gets) ? 'vowel' : 'consonant'

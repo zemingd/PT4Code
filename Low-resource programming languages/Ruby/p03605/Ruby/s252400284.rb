@@ -1,1 +1,0 @@
-puts gets.count("9") > 0 ? "Yes" : "No"

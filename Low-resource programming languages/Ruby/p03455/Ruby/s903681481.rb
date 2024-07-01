@@ -1,1 +1,0 @@
-puts gets.chomp.split.map(&:to_i).inject(1){|s,x|s*=x}.odd? ? "Odd" : "Even"

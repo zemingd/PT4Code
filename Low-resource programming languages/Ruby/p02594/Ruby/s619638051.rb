@@ -1,1 +1,0 @@
-puts x<30?"NO":"YES"

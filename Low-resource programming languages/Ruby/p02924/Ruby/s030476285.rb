@@ -1,1 +1,0 @@
-puts (n = gets.chomp.to_i) * (n-1) / 2

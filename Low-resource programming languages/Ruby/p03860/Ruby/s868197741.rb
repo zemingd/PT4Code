@@ -1,1 +1,0 @@
-puts "AtCoder Smell Contest".split.map {|k| k[0]}.join

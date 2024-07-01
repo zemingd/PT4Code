@@ -1,1 +1,0 @@
-printf("%.10f\n", (gets.to_f / 3)**3)

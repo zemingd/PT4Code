@@ -1,1 +1,0 @@
-puts (a=gets.split.map & :to_i).sum==2*a.max ? :Yes: :No

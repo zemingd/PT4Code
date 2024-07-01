@@ -1,1 +1,0 @@
-puts (`grep -o '.'|uniq|wc -l`)=="3\n"?"Yes":"No"

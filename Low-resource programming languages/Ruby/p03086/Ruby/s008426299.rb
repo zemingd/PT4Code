@@ -1,1 +1,0 @@
-p gets.to_s.split(/[^ACGT]+/).map{|t|t.size}.max || 0

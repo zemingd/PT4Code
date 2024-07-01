@@ -1,1 +1,0 @@
-puts (gets.chars.first.ord+1).chr

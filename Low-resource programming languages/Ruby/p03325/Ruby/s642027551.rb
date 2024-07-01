@@ -1,1 +1,0 @@
-gets;p gets.split.map{|x|x=x.to_i;(x&-x).bit_length-1}.inject(:+)

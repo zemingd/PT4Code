@@ -1,1 +1,0 @@
-puts gets.chomp.chars.map(&:ord).map{|x|44-x}.inject(&:+)

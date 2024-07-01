@@ -1,1 +1,0 @@
-puts (gets.chop.chars&[?a..?c]).size>2 ? :Yes: :No

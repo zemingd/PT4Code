@@ -1,1 +1,0 @@
-gets.chars{|w|$.+=w.ord};puts({true=>:Yes,false=>:No}[$.==305])

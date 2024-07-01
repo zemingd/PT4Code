@@ -1,1 +1,0 @@
-puts gets.chomp.split(" ").map(&:to_i).all?{|e| e.odd?} ? "Yes" : "No"

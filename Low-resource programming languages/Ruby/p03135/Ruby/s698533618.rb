@@ -1,1 +1,0 @@
-printf "%.13f\n", gets.split.map(&:to_f).reduce(:/)

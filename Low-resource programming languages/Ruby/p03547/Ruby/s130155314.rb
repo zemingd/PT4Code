@@ -1,1 +1,0 @@
-puts [?=,?>,?<][eval(gets.split.map{|t|t.to_i(16)}*'<=>')]

@@ -1,1 +1,0 @@
-puts 100*(7+gets.count("o"))

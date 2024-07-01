@@ -1,2 +1,0 @@
-h, w = gets.chomp.split(/ /).collect(&:to_i)
-puts(h.times.collect{gets.chomp.each_char.to_a}.reject{|line| line.all?{|c| c == "."}}.transpose.reject{|line| line.all?{|c| c == "."}}.transpose.collect(&:join))

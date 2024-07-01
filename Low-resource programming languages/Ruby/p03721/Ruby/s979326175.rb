@@ -1,1 +1,0 @@
-k,*a=$<.map{|x|x.split.map(&:to_i)};p a.sort.find{|x,y|0>=k[1]-=y}[0]

@@ -1,1 +1,0 @@
-c=gets.chomp.ord;puts (c+1).chr

@@ -1,1 +1,0 @@
-gets;puts`sort`.split*""

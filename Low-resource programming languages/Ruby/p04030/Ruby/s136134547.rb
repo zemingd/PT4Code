@@ -1,1 +1,0 @@
-s=gets;10.times{s.sub!(/.?B/,"")};puts s

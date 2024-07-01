@@ -1,1 +1,0 @@
-puts gets.chomp.scan(/^(hi)+$/) ? "Yes" : "No"

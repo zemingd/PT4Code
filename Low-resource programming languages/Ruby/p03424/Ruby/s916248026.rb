@@ -1,1 +1,0 @@
-$><<[:Three,:Four][`dd`.split.uniq.size%2]

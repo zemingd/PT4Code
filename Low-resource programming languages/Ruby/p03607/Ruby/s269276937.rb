@@ -1,1 +1,0 @@
-p gets.to_i.times.map { gets.to_i }.group_by(&:itself).count { |k, v| v.count.odd? }

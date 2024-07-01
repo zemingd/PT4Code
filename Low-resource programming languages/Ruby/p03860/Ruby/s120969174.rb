@@ -1,1 +1,0 @@
-puts gets.split.map{|e|e[0]}*''

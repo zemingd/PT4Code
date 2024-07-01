@@ -1,1 +1,0 @@
-puts`dd`.include?(?7)?:Yes: :No

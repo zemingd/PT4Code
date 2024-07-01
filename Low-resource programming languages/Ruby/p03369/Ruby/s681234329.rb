@@ -1,1 +1,0 @@
-puts 100 * gets.count("o") + 700

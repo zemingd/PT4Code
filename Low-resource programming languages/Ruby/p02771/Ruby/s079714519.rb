@@ -1,1 +1,0 @@
-gets.chomp.split(" ").group_by{|aa| aa }.each{|key, value| if value.length != 1 then puts "Yes"; exit end};puts "No"

@@ -1,1 +1,0 @@
-puts (s=gets).to_i%s.split("").map(&:to_i).inject(:+)==0?:Yes: :No

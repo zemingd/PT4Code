@@ -1,1 +1,0 @@
-as = gets.split.map(&:to_i).sort; puts (as == [5, 5, 7]) ? 'YES' : 'NO'

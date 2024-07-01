@@ -1,1 +1,0 @@
-gets.split.map(&:to_i).tap { |n, k| puts k * (k-1) ** (n-1) }

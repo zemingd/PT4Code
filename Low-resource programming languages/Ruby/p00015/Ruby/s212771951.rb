@@ -1,1 +1,0 @@
-gets;15.times{puts (a=gets.to_i+gets.to_i)>=1e80?:overflow:a}

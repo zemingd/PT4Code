@@ -1,1 +1,0 @@
-$<.map{|l|p eval(l.tr" ",?+).to_s.size}

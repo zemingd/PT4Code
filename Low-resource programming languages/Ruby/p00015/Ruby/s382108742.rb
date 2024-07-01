@@ -1,1 +1,0 @@
-gets.to_i.times{a=gets.to_i+gets.to_i;puts a<10**80?a:"overflow"}

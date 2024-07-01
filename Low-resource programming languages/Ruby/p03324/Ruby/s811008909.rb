@@ -1,1 +1,0 @@
-p proc{|d,n|d==0 ? (n==100 ? 101 : n) : (100**d)*n }.(gets.split.map(&:to_i))

@@ -1,1 +1,0 @@
-p gets.chomp=~/^(hi)+$/? :Yes : :No

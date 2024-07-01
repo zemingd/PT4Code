@@ -1,1 +1,0 @@
-puts ["a","e","i","o","u"].include?(gets.to_s) ? "vowel" : "consonant"

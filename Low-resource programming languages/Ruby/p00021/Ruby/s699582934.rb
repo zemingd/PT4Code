@@ -1,1 +1,0 @@
-gets.to_i.times{l=gets.split.map &:to_f;puts l[2]-l[0]/(l[3]-l[1])==l[6]-l[4]/(l[7]-l[5])?"YES":"NO"}

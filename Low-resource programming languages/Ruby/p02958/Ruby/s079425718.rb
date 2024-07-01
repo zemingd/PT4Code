@@ -1,1 +1,0 @@
-puts`sed 1d`.split.map(&:to_i).count{|a|a!=$.+=1}<3?:YES: :NO

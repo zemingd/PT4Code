@@ -1,1 +1,0 @@
-puts gets.chop.chars.include?('9') ?'Yes':'No'

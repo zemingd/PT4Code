@@ -1,1 +1,0 @@
-main =print(gets.split(" ").map{|e| e.to_i}.sort.take(2).inject {|s, n| s + n })

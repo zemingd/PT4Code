@@ -1,1 +1,0 @@
-gets.gsub('eraser', '').gsub('erase', '').gsub('dreamer', '').gsub('dream', '') == '' ? puts('YES') : puts('NO')

@@ -1,1 +1,0 @@
-puts "x"*(gets.size-1)

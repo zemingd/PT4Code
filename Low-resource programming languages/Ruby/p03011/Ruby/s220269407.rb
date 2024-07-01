@@ -1,1 +1,0 @@
-p gets.split.map(&:to_i).combination(2).map {|r| r.inject(:+)}.min

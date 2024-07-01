@@ -1,1 +1,0 @@
-puts gets.split.map(&:to_i).map{|x| [4,6,9,11].include?(x)} == [true,true] ? "Yes" : "No" ;

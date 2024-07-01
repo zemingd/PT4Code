@@ -1,1 +1,0 @@
-gets.split.map(&:to_i).tap { |a, b, c| puts a <= c && c <= b ? "Yes" : "No" }

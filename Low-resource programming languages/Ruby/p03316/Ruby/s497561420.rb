@@ -1,1 +1,0 @@
-puts [:Yes][gets.to_i.%eval$_.chars*?++?0]||:No

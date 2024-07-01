@@ -1,1 +1,0 @@
-puts gets.chomp[/A.*Z/].size

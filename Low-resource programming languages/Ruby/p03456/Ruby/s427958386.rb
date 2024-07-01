@@ -1,1 +1,0 @@
-puts Math.sqrt(gets.gsub(" ","").to_i) % 1 == 0 ? "Yes" : "No"

@@ -1,1 +1,0 @@
-puts 0<rand(2)?:Yes: :No

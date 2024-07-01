@@ -1,1 +1,0 @@
-gets;b=*$<;2.times{b=b.keep_if{|i|i[?#]}.map(&:chars).transpose.map &:join};puts b

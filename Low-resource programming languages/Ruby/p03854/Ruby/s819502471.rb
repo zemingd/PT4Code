@@ -1,1 +1,0 @@
-puts STDIN.readline.match('\A(dream|dreamer|erase|eraser)*\Z') ? "YES" : "NO"

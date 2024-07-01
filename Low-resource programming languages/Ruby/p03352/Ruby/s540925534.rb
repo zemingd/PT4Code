@@ -1,1 +1,0 @@
-puts Math.sqrt(gets.chomp.to_i).floor ** 2

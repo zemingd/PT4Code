@@ -1,1 +1,0 @@
-print $<.read.chomp.reverse

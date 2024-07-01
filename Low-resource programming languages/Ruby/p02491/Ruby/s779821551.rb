@@ -1,1 +1,0 @@
-a,b=g.split.map(&:to_i);puts [a/b,a%b,a/b.to_f]*" "

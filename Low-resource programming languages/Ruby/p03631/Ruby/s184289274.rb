@@ -1,1 +1,0 @@
-s=gets; puts({true=>"Yes",false=>"No"}[s[0] == s[2]])

@@ -1,1 +1,0 @@
-N,A,B,C=gets.split.map &:to_i;L=N.times.map{gets.to_i}.sort.reverse;m=A+B+C;f=->(l,a){10*~-l.size+(l.inject(:+)-a).abs};(4**N).times.map{|i|s=i.to_s(4).rjust(N,"0").chars;a=[];b=[];c=[];N.times{|j|a<<L[j]if s[j]=="0";b<<L[j]if s[j]=="1";c<<L[j]if s[j]=="2"};if a!=[]&& b!=[]&& c!=[]then s=f[a,A]+f[b,B]+f[c,C];m=s if s<m end};p m

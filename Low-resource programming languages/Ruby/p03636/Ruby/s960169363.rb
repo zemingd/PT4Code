@@ -1,1 +1,0 @@
-puts gets.sub(/(?<=^.).+(?=.$)/){|s| s.size }

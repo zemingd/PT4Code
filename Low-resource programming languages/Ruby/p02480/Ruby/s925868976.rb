@@ -1,2 +1,0 @@
-x = gets
-puts x*x*x

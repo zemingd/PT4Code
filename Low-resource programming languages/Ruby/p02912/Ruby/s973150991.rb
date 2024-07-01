@@ -1,1 +1,0 @@
-eval"_,M,*A="+`dd`.split*?,;(1..2**30).bsearch{|i|d=M;X=A.map{|a|(a/=2;d-=1)until i>a;a}.inject(:+)-i/2*d;d>=0};p X

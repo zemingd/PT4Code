@@ -1,1 +1,0 @@
-eval"_,M,*A="+`dd`.split*?,;(-2**30..).bsearch{|i|d=M;k=A.sum{|a|a>>=d-d-=1while-i<a;a};d<0||!X=k+i/2*d};p X

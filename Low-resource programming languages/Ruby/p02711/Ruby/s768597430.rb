@@ -1,1 +1,0 @@
-puts (gets=~/7/)==nil ? "No" : "Yes"

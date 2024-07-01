@@ -1,1 +1,0 @@
-a={};gets;$<.each{|e|a[e]^=1};p a.count{|k,v|v}

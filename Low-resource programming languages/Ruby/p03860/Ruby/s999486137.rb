@@ -1,1 +1,0 @@
-puts[?A,?C]*gets[8]

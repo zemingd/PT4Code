@@ -1,1 +1,0 @@
-*a,d=gets.split.map &:to_i;a,b,c=a.sort;puts b-a<=d&&c-b<=d ? :Yes : :No

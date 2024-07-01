@@ -1,1 +1,0 @@
-puts gets.chop.gsub("eraser","").gsub("dreamer","").gsub("erase","").gsub("dream","").empty? ? :YES : :NO

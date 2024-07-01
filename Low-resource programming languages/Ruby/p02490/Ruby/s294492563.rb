@@ -1,1 +1,0 @@
-puts c*" "while(c=gets.split.map(&:to_i).sort)!=[0,0]

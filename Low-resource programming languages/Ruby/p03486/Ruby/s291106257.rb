@@ -1,1 +1,0 @@
-$><<(gets.chop.chars.sort*""<gets.chop.chars.reverse*""?:Yes: :No)

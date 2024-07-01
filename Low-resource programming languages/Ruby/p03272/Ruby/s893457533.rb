@@ -1,1 +1,0 @@
-p 1+gets.split.map(&:to_i).inject(:-)

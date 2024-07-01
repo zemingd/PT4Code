@@ -1,1 +1,0 @@
-p 700 + gets.chomp.chars.count("o") * 100

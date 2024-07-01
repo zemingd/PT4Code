@@ -1,1 +1,0 @@
-a,b=`dd`.chomp.split;puts b.chars.rotate(a.to_i).join

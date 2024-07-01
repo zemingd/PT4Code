@@ -1,1 +1,0 @@
-puts gets.chars.sort*""<gets.chars.sort.reverse*""?:Yes: :No

@@ -1,1 +1,0 @@
-puts gets.chars.uniq.size>2? :Yes: :No

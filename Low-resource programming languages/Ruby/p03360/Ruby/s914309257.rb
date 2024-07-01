@@ -1,1 +1,0 @@
-p proc{|a,k| k.first.times{|_| a[a.index(a.max)]=a.max*2};a}.(*$<.map{|s| s.split.map(&:to_i)}).inject(:+)

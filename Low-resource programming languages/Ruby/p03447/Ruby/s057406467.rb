@@ -1,1 +1,0 @@
-x,a,b=`dd`.split.map &:to_i;p (x-a)%b

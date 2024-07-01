@@ -1,1 +1,0 @@
-i=0;while(!(n=gets.to_i).zero?)do puts"Case #{i+=1}: #{n}"end;

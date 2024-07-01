@@ -1,1 +1,0 @@
-print gets.chomp.match(/A(.*)Z/)[0].size

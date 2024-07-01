@@ -1,1 +1,0 @@
-eval"N,M,*A="+`dd`.split*?,;f=->i{d=k=0;A.map{|a|d-=b=(0..99).find{|j|a>>j<=i};k+=a>>b};$x=k--~i/2*d+=M;d>=0};f[(0..10**9).bsearch &f];p$x

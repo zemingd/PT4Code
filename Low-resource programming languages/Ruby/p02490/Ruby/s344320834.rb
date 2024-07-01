@@ -1,1 +1,0 @@
-puts$<.map{|l|l.split.map(&:to_i).sort*" "}[0..-2]

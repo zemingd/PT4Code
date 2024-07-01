@@ -1,1 +1,0 @@
-puts (%w(a i u e o) & [gets.chomp]).size == 1 ? "vowel" : "consonant"

@@ -1,1 +1,0 @@
-puts gets.gsub(/[19]/){$&.to_i^8}

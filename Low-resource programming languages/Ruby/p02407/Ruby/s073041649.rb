@@ -1,1 +1,0 @@
-puts readlines.last.strip.split(' ').reverse*' '

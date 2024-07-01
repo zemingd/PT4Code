@@ -1,1 +1,0 @@
-eval"p -"+`dd`.split*?+

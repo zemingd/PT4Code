@@ -1,1 +1,0 @@
-x=Math.sqrt(y=gets.split(&:to_i).join.to_i).to_i;puts x*x==y ? "Yes" :"No"

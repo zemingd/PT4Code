@@ -1,1 +1,0 @@
-eval"a=%d;p a>%d?~-a:a"%gets.split

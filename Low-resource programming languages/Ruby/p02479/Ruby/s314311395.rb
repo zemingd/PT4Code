@@ -1,1 +1,0 @@
-r=gets.to_f;printf("%.9f %.9f\n",(p=Math::PI)*r*r,p*r*2)

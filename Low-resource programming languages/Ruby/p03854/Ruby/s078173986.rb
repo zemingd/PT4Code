@@ -1,1 +1,0 @@
-puts gets.to_s.match('\A(dream|dreamer|erase|eraser)*\Z') ? "YES" : "NO"

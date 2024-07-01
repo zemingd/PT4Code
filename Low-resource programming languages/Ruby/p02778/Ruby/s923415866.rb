@@ -1,1 +1,0 @@
-puts gets.chomp.chars.map{"x"}.join

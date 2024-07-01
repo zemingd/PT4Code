@@ -1,1 +1,0 @@
-puts gets.chomp.chars.map{|c| c == '9' ? '1' : '9'}.join

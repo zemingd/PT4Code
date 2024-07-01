@@ -1,1 +1,0 @@
-puts gets.any? {|r| r == "7"} ? "Yes" : "No"

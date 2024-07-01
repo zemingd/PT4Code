@@ -1,1 +1,0 @@
-eval"A,B="+gets.split*?,;p [A+B,A-B,A*B].max

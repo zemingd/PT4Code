@@ -1,1 +1,0 @@
-puts (1..(gets.to_i)).to_a.repeated_permutation(3).size

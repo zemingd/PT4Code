@@ -1,1 +1,0 @@
-f=->n{656859.to_s(3)[n]};puts eval"f[%s]==f[%s]?:Yes: :No"%gets.split

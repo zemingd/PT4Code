@@ -1,1 +1,0 @@
-_, k = gets.chomp.split(' ').map(&:to_i); sum = 0; max = 0; arr = []; s = gets.chomp; (s.each_char.chunk {|x| x} + [["1", []]]).each{|key, a| arr << a.size; sum += a.size; sum -= arr[arr.size - (k * 2 + 2)] if arr.size > k * 2 + 1; max = [sum, max].max if key == '1' }; puts max

@@ -1,1 +1,0 @@
-a=gets.split.map &:to_i;p a.max*9+a.inject(:+)

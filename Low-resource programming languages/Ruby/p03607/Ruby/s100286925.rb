@@ -1,1 +1,0 @@
-gets;a={};`dd`.split.map{|e|a[e]^=0};p a.count{|k,v|v}

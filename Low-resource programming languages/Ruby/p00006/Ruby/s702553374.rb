@@ -1,1 +1,0 @@
-print gets.chomp.split("").reverse.join

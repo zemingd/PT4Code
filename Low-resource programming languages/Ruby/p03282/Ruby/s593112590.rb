@@ -1,1 +1,0 @@
-puts gets[/1{,#{[gets.to_i-1,100].min}}\K./]

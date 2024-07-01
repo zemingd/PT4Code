@@ -1,1 +1,0 @@
-p [gets.count(?0),$_.count(?1)].min*2

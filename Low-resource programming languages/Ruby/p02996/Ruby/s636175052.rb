@@ -1,1 +1,0 @@
-t=0;puts(gets.to_i.times.map{gets.split.map &:to_i}.sort{|l,r|l[1]<=>r[1]}.all?{|a,b|(t+=a)<=b}?:Yes: :No)

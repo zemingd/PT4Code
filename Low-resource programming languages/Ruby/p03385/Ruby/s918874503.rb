@@ -1,1 +1,0 @@
-puts gets.chomp.chars.sort==[?a,?b,?c] ? "Yes" : "No"

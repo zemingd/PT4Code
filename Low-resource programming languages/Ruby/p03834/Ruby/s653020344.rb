@@ -1,1 +1,0 @@
-s=gets.gsub(","," ").chop;puts s

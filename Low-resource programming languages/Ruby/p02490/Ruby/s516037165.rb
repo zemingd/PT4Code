@@ -1,1 +1,0 @@
-lambda{|s| s << $_.chomp.split.map{|s|s.to_i} while(gets().chomp.split.map{|s|s.to_i}.all?{|i|i!=0}); s}.call(Array.new).each{|p| p.rotate! if p[0] > p[1]; puts "#{p[0]} #{p[1]}" }

@@ -1,1 +1,0 @@
-a=100000gets.to_i.times{a=((a*1.05/1000).ceil)*1000;};puts a;

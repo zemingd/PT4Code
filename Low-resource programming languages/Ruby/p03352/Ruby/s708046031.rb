@@ -1,1 +1,0 @@
-x=gets.to_i;puts [*1..x].map{|i|i**2}.select{|n|n<=x}.max

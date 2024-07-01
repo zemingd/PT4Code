@@ -1,1 +1,0 @@
-p eval("0" + gets.chomp.chars.join('1') + "1")

@@ -1,1 +1,0 @@
-puts`dd`[/^(hi)*$/]?:Yes: :No

@@ -1,1 +1,0 @@
-`dd`.split(' ').map(&:to_f).inject(:/)

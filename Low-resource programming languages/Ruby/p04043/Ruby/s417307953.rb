@@ -1,1 +1,0 @@
-puts gets.split.map{|e| e.to_i}.sort == [5,5,7] ? "YES" : "NO"

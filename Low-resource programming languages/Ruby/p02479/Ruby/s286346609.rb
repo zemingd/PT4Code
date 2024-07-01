@@ -1,1 +1,0 @@
-puts [(p=Math::PI*r=gets.to_f)*r,p*2]*" "

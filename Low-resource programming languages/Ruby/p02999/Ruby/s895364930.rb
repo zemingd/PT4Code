@@ -1,1 +1,0 @@
-p(gets.split.map(&:to_i).inject(:-)<0?0:10)

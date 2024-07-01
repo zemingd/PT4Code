@@ -1,1 +1,0 @@
-puts (/[aeiou]/ =~ gets.chomp).nil? ? 'consonant' : 'vowel'

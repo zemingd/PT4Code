@@ -1,1 +1,0 @@
-puts gets.split('').uniq[2].nil?? 'No':'Yes'

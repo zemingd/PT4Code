@@ -1,1 +1,0 @@
-gets;x=0;10.times{|i|[3,5,7].repeated_permutation(i){|e|break if e.join.to_i>$_.to_i;x+=1 if e.uniq.size>2}};p x

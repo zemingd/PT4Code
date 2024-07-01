@@ -1,1 +1,0 @@
-puts gets.to_i.then { |a| a + a * a + a * a * a }

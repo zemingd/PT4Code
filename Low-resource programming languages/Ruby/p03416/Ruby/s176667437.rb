@@ -1,1 +1,0 @@
-proc{|a,b|puts b-a}.call(gets.split.map{|s|s.slice(0,3)}.map(&:to_i))

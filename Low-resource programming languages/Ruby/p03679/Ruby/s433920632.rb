@@ -1,1 +1,0 @@
-puts Proc.new{ |x, a, b| (b<=a ? "delicious" : b-a<=x ? "safe" : "dangerous")}.call(gets.split.map(&:to_i))

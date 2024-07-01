@@ -1,1 +1,0 @@
-puts gets.chars.count(?+)*2-4

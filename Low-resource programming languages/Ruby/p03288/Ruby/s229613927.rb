@@ -1,1 +1,0 @@
-puts (R=gets.to_i)<1200?:ABC:(R<2800?:ARC: :AGC)

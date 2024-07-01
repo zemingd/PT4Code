@@ -1,1 +1,0 @@
-puts 6-gets.chomp.to_i-gets.chomp.to_i

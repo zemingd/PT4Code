@@ -1,1 +1,0 @@
-f=->x{x.grep(/#/).map(&:chars).transpose.map &:join};puts f[f[[*$<]]]

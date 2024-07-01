@@ -1,1 +1,0 @@
-$stdin.gets.chomp.to_i; array = $stdin.gets.chomp.split(/ /); print array.shift; array.reverse.each{|i| print " ", i}; print "\n"

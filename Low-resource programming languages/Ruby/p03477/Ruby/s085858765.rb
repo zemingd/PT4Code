@@ -1,1 +1,0 @@
-eval"puts [:Balanced,:Left,:Right][%d+%d<=>%d+%d]",gets.split

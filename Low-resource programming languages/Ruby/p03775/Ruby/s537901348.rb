@@ -1,1 +1,0 @@
-p [*1..(_=gets.to_i)**0.5].select{|i|_%i==0}.map{|i|(_/i).to_s.size}.min

@@ -1,1 +1,0 @@
-$><<gets.sub(/\B.*\B/,&:size)

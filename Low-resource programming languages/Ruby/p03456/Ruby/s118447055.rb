@@ -1,1 +1,0 @@
-puts Math.sqrt(a=gets.split.join.to_i)**2==a ? :Yes: :No

@@ -1,1 +1,0 @@
-eval"_,M,*A="+`dd`.split*?,;(0..10**9).bsearch{|i|d=k=0;A.map{|a|d-=(0..30).find{|j|i>=B=a>>j};k+=B};d>~M&&!!X=k--~i/2*d+=M};p X

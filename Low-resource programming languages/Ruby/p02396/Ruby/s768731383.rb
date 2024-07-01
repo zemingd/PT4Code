@@ -1,1 +1,0 @@
-i=0;File.open('sample').each_line { |x| i+=1; if x.to_i == 0 ; break ; end ; puts "Case #{i}:#{x}" }

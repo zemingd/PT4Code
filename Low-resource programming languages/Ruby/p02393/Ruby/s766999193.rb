@@ -1,1 +1,0 @@
-puts gets.sort {|a, b| b <=> a}

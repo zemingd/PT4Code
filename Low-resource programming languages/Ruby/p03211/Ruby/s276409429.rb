@@ -1,1 +1,0 @@
-puts gets.chomp.chars.each_cons(3).min_by{|t| (t.join.to_i-753).abs}

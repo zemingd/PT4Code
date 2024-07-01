@@ -1,1 +1,0 @@
-print gets.to_i **

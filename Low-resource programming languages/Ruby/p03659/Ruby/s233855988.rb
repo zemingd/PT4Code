@@ -1,1 +1,0 @@
-eval"N,*A="+$<.read.split*?,;b=A.inject:+;p A[0,N-1].map{|n|(($.+=n)-(b-=n)).abs}.min

@@ -1,1 +1,0 @@
-gets;s=0;puts$<.map{|s|s.split.map &:to_i}.sort_by(&:last).all?{|a,b|b>=s+=a}?:Yes: :No

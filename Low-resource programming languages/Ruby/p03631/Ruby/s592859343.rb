@@ -1,1 +1,0 @@
-a=gets.to_i;puts a/100==a%10 ?:Yes: :No

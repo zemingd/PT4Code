@@ -1,1 +1,0 @@
-puts %w[a e i o u].include?(gets[0]) ? 'vowel':'consonant'

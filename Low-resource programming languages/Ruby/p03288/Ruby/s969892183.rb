@@ -1,1 +1,0 @@
-r=eval`dd`;puts"A#{r<1200??B:r<2800??R:?G}C"

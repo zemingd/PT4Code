@@ -1,1 +1,0 @@
-puts ((gets.chomp.chars.uniq.length==2) ? :Yes : :No)

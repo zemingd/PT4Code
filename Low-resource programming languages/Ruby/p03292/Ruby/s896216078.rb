@@ -1,1 +1,0 @@
-puts gets.split.map(&:to_i).permutation.map{|a, b, c| (b - a).abs + (c - b).abs}.min

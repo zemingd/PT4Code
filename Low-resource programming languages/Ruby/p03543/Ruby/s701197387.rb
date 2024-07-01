@@ -1,1 +1,0 @@
-puts (_=gets.chars)[0..2].uniq.size<2||_[1..3].uniq.size<2?"Yes":"No"

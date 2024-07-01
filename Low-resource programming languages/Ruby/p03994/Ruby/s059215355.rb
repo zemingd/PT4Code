@@ -1,1 +1,0 @@
-s=gets.chop.bytes.map{|e|e-97};k=gets.to_i;r=s.map{|e|x=26-e;(e=0;k-=x)if e>0&&k>=x;e+97};r[-1]+=k%26;puts r.map(&:chr)*''

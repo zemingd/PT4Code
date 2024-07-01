@@ -1,1 +1,0 @@
-r=0;gets;gets.split.map{|a|x=a.to_i;while x.even? do x/=2;r+=1 end};p r

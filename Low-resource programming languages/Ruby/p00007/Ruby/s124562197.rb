@@ -1,1 +1,0 @@
-STDIN.gets.chomp.to_i.times.inject(100_000) { |a, _e| (a * 1.05 / 1_000).ceil * 1_000 }

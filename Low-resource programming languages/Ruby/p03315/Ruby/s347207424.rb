@@ -1,1 +1,0 @@
-puts 2 * gets.split('').select{|c| c == '+'}.size - 4

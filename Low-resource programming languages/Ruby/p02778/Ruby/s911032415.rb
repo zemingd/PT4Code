@@ -1,1 +1,0 @@
-puts word = gets.gsub(/./,"x")

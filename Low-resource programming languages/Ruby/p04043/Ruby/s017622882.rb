@@ -1,1 +1,0 @@
-puts [5,5,5]==gets.split.map(&:to_i).sort ? "YES" : "NO"

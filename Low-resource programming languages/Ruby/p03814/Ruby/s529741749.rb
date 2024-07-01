@@ -1,1 +1,0 @@
-puts /A.*Z/.match(gets.chomp).to_s.length

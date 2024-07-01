@@ -1,1 +1,0 @@
-puts $<.map{|x|x.split.map(&:to_i).sort*" "}

@@ -1,2 +1,0 @@
-puts gets.chomp.reverse
-

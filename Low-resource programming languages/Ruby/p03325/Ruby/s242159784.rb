@@ -1,1 +1,0 @@
-a,n=0,gets;gets.split(" ").map{|i|b="%b"%i;a+=b.size-b.rindex("1")-1};puts a

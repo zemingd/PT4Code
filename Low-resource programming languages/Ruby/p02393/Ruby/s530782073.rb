@@ -1,1 +1,0 @@
-(a,b,c)=gets.split();puts [a,b,c].sort.join(" ")

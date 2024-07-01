@@ -1,1 +1,0 @@
-puts gets.split.any?{|e| e.to_i.even?} ? "No" : "Yes"

@@ -1,1 +1,0 @@
-K=eval`dd`;p K.downto(1).sum{|i|i*$*[i]=-(2..t=K/i).sum{$*[i*_1]}+t**3}

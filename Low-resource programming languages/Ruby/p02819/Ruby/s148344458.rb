@@ -1,1 +1,0 @@
-require'prime';gets;p Prime.find{|p|p>=$_.to_i}

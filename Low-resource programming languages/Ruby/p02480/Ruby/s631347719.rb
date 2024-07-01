@@ -1,1 +1,0 @@
-uts gets.chomp.to_i ** 3

@@ -1,1 +1,0 @@
-p eval(gets.chop.chars.join(?1)+?1)

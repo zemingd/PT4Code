@@ -1,1 +1,0 @@
-p gets.strip.next

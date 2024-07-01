@@ -1,1 +1,0 @@
-p Integer.new(1)

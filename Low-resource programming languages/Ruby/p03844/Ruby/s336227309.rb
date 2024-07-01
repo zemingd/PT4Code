@@ -1,1 +1,0 @@
-puts gets[1] == "+" ? gets[0].to_i + gets[2].to_i : gets[0].to_i - gets[2].to_i

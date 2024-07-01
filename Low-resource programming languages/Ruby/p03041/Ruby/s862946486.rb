@@ -1,1 +1,0 @@
-c,b=gets.chomp.split(" ").map(&:to_i);a=gets.chomp;puts a[0..(b-2)] + a[b-1].downcase + a[b..(a.length)]

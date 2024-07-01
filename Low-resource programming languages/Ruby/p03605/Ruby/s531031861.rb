@@ -1,1 +1,0 @@
-puts gets.index('9') ? :Yes: :No

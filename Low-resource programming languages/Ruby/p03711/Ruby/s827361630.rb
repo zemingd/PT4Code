@@ -1,1 +1,0 @@
-a,b=gets.split.map{|i|656859.to_s(3)[i.to_i]};puts a==b ?:Yes: :No

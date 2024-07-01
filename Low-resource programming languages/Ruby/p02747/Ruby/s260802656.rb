@@ -1,1 +1,0 @@
-p gets =~ /hi/ ? 'Yes' : 'No'

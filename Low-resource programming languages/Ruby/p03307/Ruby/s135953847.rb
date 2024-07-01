@@ -1,1 +1,0 @@
-proc{|i|p i.even? ? i : i*2}.(gets.to_i)

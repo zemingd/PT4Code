@@ -1,1 +1,0 @@
-r=gets.to_i;P=Math::PI;puts [r*r*P,2*r*P]*" "

@@ -1,1 +1,0 @@
-p 4-gets.split('').count('-')*2

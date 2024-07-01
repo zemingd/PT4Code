@@ -1,1 +1,0 @@
-S=gets.chomp;x=642;(S.size-2).times{|i|d=(753-S[i..i+2].to_i).abs;x=x>d ?d:x};p x

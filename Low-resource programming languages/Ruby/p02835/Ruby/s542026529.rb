@@ -1,1 +1,0 @@
-puts eval(gets.tr(" ",?+))>21?"bust":"win"

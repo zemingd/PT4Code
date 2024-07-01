@@ -1,1 +1,0 @@
-p gets[/A.*Z/].length

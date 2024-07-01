@@ -1,1 +1,0 @@
-a,b=2.times.map{gets.to_i};p 6 - (a + b)

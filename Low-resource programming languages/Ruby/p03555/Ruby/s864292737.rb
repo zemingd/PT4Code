@@ -1,1 +1,0 @@
-puts (N = gets.to_i).downto(1).find{|n| Math.sqrt(n).to_i ** 2 == n}

@@ -1,1 +1,0 @@
-puts (g=gets)[0]+(g.size-3).to_s+g[-2]

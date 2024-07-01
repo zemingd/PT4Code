@@ -1,1 +1,0 @@
-puts gets(p).chop!!=$_.reverse ? :NO: :YES

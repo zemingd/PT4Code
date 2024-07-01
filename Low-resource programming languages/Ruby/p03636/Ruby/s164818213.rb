@@ -1,1 +1,0 @@
-puts gets.strip.to_s.gsub(/(^\w)(\w*)(\w$)/) { $1 + $2.length.to_s + $3 }

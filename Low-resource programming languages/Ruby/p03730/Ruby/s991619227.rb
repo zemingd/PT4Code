@@ -1,1 +1,0 @@
-eval"A,B,C="+gets.split*?,;puts (1..B).find{|i|A*i%B==C}?:YES: :NO

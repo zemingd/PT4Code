@@ -1,1 +1,0 @@
-n=gets;puts n.count(n[1]) >=3 ? "Yes" : "No"

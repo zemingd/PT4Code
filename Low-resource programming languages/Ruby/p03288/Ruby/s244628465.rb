@@ -1,1 +1,0 @@
-a=gets.to_i;if a<1200;puts"ABC";else puts a>= 2800 ?"AGC":"ARC";end

@@ -1,1 +1,0 @@
-puts "Case #{$.}: #{$_}" while gets && $_ != "0"

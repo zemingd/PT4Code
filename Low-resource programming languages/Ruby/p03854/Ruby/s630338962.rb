@@ -1,1 +1,0 @@
-puts /\A(dream(er)?|eraser?)*\Z/ =~ gets.chomp ? 'YES' : 'NO'

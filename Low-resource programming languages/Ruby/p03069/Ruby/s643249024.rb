@@ -1,1 +1,0 @@
-gets;s=t=gets;s=s[/\#.*/];t=t.reverse[/\..*/];p [s.nil? ? 0 : s.count(?.),t.nil? ?  0 : t .count(?#)].min

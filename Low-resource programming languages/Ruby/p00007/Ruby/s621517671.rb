@@ -1,1 +1,0 @@
-p gets.to_i.times.inject(100000){|s|(s*1.05/1000).ceil*1000}

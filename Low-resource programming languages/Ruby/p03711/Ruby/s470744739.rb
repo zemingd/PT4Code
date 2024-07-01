@@ -1,1 +1,0 @@
-puts gets.split.map{|x|(4460832>>x.to_i*2)%4}.reduce(:==)?:Yes:'No'

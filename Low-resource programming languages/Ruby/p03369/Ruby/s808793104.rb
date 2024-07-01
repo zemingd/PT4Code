@@ -1,1 +1,0 @@
-p 700 + gets.chomp.chars.count { |x| x == 'o' } * 100

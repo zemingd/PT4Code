@@ -1,1 +1,0 @@
-puts gets.chomp!.split.count('5') == 2 ? 'YES' : 'NO'

@@ -1,1 +1,0 @@
-puts (753 - ((s = gets.chomp).size - 2).times.map{|block| s[block..block+2].to_i}.min{|a, b| (a-753).abs<=> (b-753).abs}).abs

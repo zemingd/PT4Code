@@ -1,1 +1,0 @@
-a,b=STDIN.gets.chomp.split.map(&:to_i);print "#{a*b} #{(a+b)*2}"

@@ -1,1 +1,0 @@
-puts gets.strip.map(&:to_i).inject(:-) + 1

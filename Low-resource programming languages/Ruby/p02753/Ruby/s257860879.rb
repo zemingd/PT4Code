@@ -1,1 +1,0 @@
-puts gets.chomp.split('').uniq.size == 1 ? 'No' : 'Yes'

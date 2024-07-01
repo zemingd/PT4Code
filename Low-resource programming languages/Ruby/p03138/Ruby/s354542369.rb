@@ -1,1 +1,0 @@
-eval'N,K,*A='+`dd`.split*?,;45.downto(r=0){|i|c=A.count{|x|x[i]>0};r+=r.+N<c*2||K==(K%=1<<i)?c:N-c};p r

@@ -1,1 +1,0 @@
-puts readline.split.map(&:to_i).inject(:*).even? ? "Even" : "Odd"

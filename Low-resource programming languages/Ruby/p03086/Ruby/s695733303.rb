@@ -1,1 +1,0 @@
-p `tr BDEFH-SU-Z " "`.split.max.to_s.size

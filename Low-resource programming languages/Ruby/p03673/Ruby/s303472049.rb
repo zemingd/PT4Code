@@ -1,1 +1,0 @@
-puts STDIN.map(&:chomp)[1].split(" ").map(&:to_i).inject([]){|b, a| (b + [a]).reverse}.join(" ")

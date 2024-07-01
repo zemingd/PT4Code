@@ -1,1 +1,0 @@
-eval"H,W,R,C="+`dd`.split*?,;p H*W-R*W-H*C+R*C

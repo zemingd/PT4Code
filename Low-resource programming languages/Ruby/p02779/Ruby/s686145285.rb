@@ -1,1 +1,0 @@
-puts`sed 1d`.split.uniq!? :NO: :YES

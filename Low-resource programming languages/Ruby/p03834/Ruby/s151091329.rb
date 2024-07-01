@@ -1,1 +1,0 @@
-puts readline.chomp.split(",").join(" ")

@@ -1,1 +1,0 @@
-gets.chomp.split(" ").map{|s| s[0]}.each{|e| print e}

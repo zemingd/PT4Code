@@ -1,1 +1,0 @@
-a,b=*$<;puts a==b.tr(b,a)&&b==a.tr(a,b)?:Yes: :No

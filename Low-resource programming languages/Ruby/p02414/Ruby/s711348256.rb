@@ -1,4 +1,0 @@
-require'Matrix'
-M=Matrix
-b=$<.map{|l|l.split.map &:to_i}
-puts (M[*(b.shift b.shift[0])]*M[*b]).to_a.map{|r|r*' '}

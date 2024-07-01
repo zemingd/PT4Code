@@ -1,1 +1,0 @@
-i=->{gets.split.map &:to_i};w,h,n=i[];l=b=0;n.times{x,y,a=i[];l=a<2&&l<x ?x: l;w=a==2&&x<w ?x: w;b=a==3&&b<y ?y: b;h=a>3&&y<h ?y: h};p l<w&&b<h ?(w-l)*(h-b):0

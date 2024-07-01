@@ -1,1 +1,0 @@
-N,_,*A=$<.read.split.map &to_i;p d[N.times{d<<A.map{|x|(d[-'673654552'[-x].hex]||-1)*10+x}.max}]

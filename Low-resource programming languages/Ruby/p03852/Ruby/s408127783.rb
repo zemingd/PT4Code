@@ -1,1 +1,0 @@
-puts "aiueo".chars.include?(gets.chomp) ? "vowel" : "consonant"

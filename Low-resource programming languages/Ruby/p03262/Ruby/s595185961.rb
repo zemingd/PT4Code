@@ -1,1 +1,0 @@
-eval"N,X,*Z="+`tr ' ' ,`;p Z.inject(0){|r,n|r.gcd n-X}

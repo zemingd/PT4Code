@@ -1,1 +1,0 @@
-p~-`sed 1d`.split.map(&:to_i).slice_when(&:<).map(&:size).max

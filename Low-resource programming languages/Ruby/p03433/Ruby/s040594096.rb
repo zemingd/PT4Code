@@ -1,1 +1,0 @@
-eval"puts %d%%50>%d?:No: :Yes"%[*$<]

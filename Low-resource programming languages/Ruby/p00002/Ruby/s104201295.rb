@@ -1,1 +1,0 @@
-STDIN.map{|s| s.split(" ").map(&:to_i)}.map{|l| l.sum.to_s.length}.each{|i| puts i}

@@ -1,1 +1,0 @@
- a=gets.chomp;puts a[0]+(a.size-2).to_s+a[-1]

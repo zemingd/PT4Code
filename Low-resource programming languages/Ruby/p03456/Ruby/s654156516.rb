@@ -1,1 +1,0 @@
-puts Math.sqrt(gets.chomp.split(" ").join.to_i).to_s.match(/^[0-9]+[.]*0*$/) == nil ? "No" : "Yes"

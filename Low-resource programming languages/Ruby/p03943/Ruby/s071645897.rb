@@ -1,1 +1,0 @@
-a,b,c=gets.split.map &:to_i;puts a==b+c||b==c+a||c ==a+b ?:Yes: :No

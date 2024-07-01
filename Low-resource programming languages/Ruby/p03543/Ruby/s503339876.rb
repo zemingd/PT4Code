@@ -1,1 +1,0 @@
-puts gets.chop.chars.each_cons(3).any?{|i|i.all?{|j|j==i[0]}}?:Yes: :No

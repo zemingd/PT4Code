@@ -1,1 +1,0 @@
-$<.map {|b| puts b.split(//).reverse * ""}

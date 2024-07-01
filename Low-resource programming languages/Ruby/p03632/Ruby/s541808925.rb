@@ -1,1 +1,0 @@
-a,b,c,d=gets.split.map(&:to_i);puts (b-c-a)>0?b-c-a:0

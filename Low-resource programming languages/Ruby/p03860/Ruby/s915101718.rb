@@ -1,1 +1,0 @@
-print:A,gets[8],:C

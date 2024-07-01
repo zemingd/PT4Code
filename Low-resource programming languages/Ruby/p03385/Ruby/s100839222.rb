@@ -1,1 +1,0 @@
-puts gets.chomp.size == 3 ? :Yes: :No

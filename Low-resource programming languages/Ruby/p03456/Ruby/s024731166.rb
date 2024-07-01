@@ -1,1 +1,0 @@
-puts gets.split.join.to_i**0.5%1==0? :Yes: :No
