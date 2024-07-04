@@ -63,15 +63,16 @@ def extract_method_name_fornil(string):
 
 
 def extract_method_name(string):
-    match_ret = re.search('\w+\s*\(',string)
+    match_ret = re.findall('\w+\s*\(', string)
     pattern = re.compile(r'\bdef\s+(\w+)')
     function_names = pattern.findall(string)
-    if match_ret.group()[:-1]  in function_names:
-        if match_ret:
-            method_name = match_ret.group()[:-1].strip()
-            return method_name
-        else:
-            return None
+    for i in match_ret:
+        if i[:-1] in function_names:
+            if i:
+                method_name = i[:-1].strip()
+                return method_name
+            else:
+                return None
 
 
 
@@ -256,10 +257,9 @@ def extract_if(string):
     return if_list
 
 def extract_if_ruby(string):
-
     if_list = []
     while True:
-        match_ret = re.search(' if ', string)
+        match_ret = re.search('if', string)
         if match_ret:
             if_head = match_ret.group()
             start_pos = string.find(if_head)

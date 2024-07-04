@@ -155,30 +155,42 @@ def add_puts(method_string):
     return method_string
 
 
-def enhance_if( method_string):
+def enhance_if(method_string):
     if_list = extract_if_ruby(method_string)
-    if (len(if_list) == 0):
+    if (len(if_list)==0):
         return method_string
-    mutation_index = random.randint(0, len(if_list) - 1)
+    mutation_index = random.randint(0, len(if_list) - 1 )
     if_text = if_list[mutation_index]
     if_info = if_text[if_text.find('if ') + 3: if_text.find('\n')]
     new_if_info = if_info
     if 'true' in if_info:
-        new_if_info = if_info.replace('true', ' (0==0) ')
+        new_if_info = if_info.replace('true', ' (0==0) ') 
     if 'flase' in if_info:
         new_if_info = if_info.replace('flase', ' (1==0) ')
     if '!=' in if_info and '(' not in if_info and 'and' not in if_info and 'or' not in if_info and '&&' not in if_info and '||' not in if_info:
-        new_if_info = '!' + if_info.split('!=')[0].strip() + '.equal?(' + if_info.split('!=')[1] + ')'
+        if (len(if_info.split('!=')[1].split()) > 1):
+            return method_string
+        new_if_info = '!(' + if_info.split('!=')[0].strip()  + ')' + '.equal?(' + if_info.split('!=')[1] + ')'
     if '<' in if_info and '<=' not in if_info and '(' not in if_info and 'and' not in if_info and 'or' not in if_info and '&&' not in if_info and '||' not in if_info:
+        if (len(if_info.split('<')[1].split()) > 1):
+            return method_string
         new_if_info = if_info.split('<')[1] + ' > ' + if_info.split('<')[0]
     if '>' in if_info and '>=' not in if_info and '(' not in if_info and 'and' not in if_info and 'or' not in if_info and '&&' not in if_info and '||' not in if_info:
+        if (len(if_info.split('>')[1].split()) > 1):
+            return method_string
         new_if_info = if_info.split('>')[1] + ' < ' + if_info.split('>')[0]
     if '<=' in if_info and '(' not in if_info and 'and' not in if_info and 'or' not in if_info and '&&' not in if_info and '||' not in if_info:
+        if (len(if_info.split('<=')[1].split()) > 1):
+            return method_string
         new_if_info = if_info.split('<=')[1] + ' >= ' + if_info.split('<=')[0]
     if '>=' in if_info and '(' not in if_info and 'and' not in if_info and 'or' not in if_info and '&&' not in if_info and '||' not in if_info:
+        if (len(if_info.split('>=')[1].split()) > 1):
+            return method_string
         new_if_info = if_info.split('>=')[1] + ' <= ' + if_info.split('>=')[0]
     if '==' in if_info and '(' not in if_info and 'and' not in if_info and 'or' not in if_info and '&&' not in if_info and '||' not in if_info:
-        new_if_info = if_info.split('==')[0].strip() + '.equal?(' + if_info.split('==')[1] + ')'
+        if (len(if_info.split('==')[1].split()) > 1):
+            return method_string
+        new_if_info = '(' + if_info.split('==')[0].strip() + ')' + '.equal?(' + if_info.split('==')[1] + ')'
     return method_string.replace(if_info, new_if_info)
 
 
