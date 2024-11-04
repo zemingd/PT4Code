@@ -112,7 +112,7 @@ python alert_attack.py \
     --model_type=roberta \
     --tokenizer_name=microsoft/codebert-base \
     --model_name_or_path=microsoft/codebert-base \
-    --number_labels 250 \  # Number Classifications
+    --number_labels $number \   # Change Number Classifications
     --use_ga \
     --block_size 512 \
     --eval_batch_size 32 \
@@ -129,7 +129,7 @@ python mhm.py \
     --tokenizer_name=microsoft/codebert-base \
     --model_name_or_path=microsoft/codebert-base \
     --block_size 512 \
-    --number_labels 250 \   # Number Classifications
+    --number_labels $number \   # Change Number Classifications
     --eval_batch_size 32 \
     --index 0 500 \
     --seed 123456
