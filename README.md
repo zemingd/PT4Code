@@ -66,7 +66,7 @@ python run.py \
     --eval_batch_size 16 \
     --learning_rate 2e-5 \
     --max_grad_norm 1.0 \
-    --num_labels 250 \  # Number Classifications
+    --num_labels $number \   # Change Number Classifications
     --seed 123456  2>&1 | tee train.log
 ```
 
@@ -86,7 +86,7 @@ python run.py \
     --learning_rate 2e-5 \
     --max_grad_norm 1.0 \
     --evaluate_during_training \
-    --num_labels 250 \  # Number Classifications
+    --num_labels $number \   # Change Number Classifications
     --seed 123456  2>&1 | tee train.log
 ```
 
