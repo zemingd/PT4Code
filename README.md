@@ -1,5 +1,10 @@
+# Boosting Source Code Learning with Text-Oriented Data Augmentation: An Empirical Study
+Implementation of Empirical Software Engineering (EMSE 2025) paper: Boosting Source Code Learning with Text-Oriented Data Augmentation: An Empirical Study [[arxiv]](https://arxiv.org/abs/2303.06808). 
+
 ## Introduction
 - We totally collect 1) 18 data augmentation methods from code data, and 2) 7 data augmentation methods from NLP, and build this project on the top of [ALERT project](https://github.com/soarsmu/attack-pretrain-models-of-code) and [Project_CodeNet](https://github.com/IBM/Project_CodeNet). Please refer to these projects for more details.
+
+<div align=center><img src="img/PT4Code.png"></div>
 
 - We modify all 7 data augmentation methodes from NLP to adapt to source code. 
 ```
@@ -66,7 +71,7 @@ python run.py \
     --eval_batch_size 16 \
     --learning_rate 2e-5 \
     --max_grad_norm 1.0 \
-    --num_labels 250 \  # Number Classifications
+    --num_labels $number \   # Change Number Classifications
     --seed 123456  2>&1 | tee train.log
 ```
 
@@ -86,7 +91,7 @@ python run.py \
     --learning_rate 2e-5 \
     --max_grad_norm 1.0 \
     --evaluate_during_training \
-    --num_labels 250 \  # Number Classifications
+    --num_labels $number \   # Change Number Classifications
     --seed 123456  2>&1 | tee train.log
 ```
 
@@ -112,7 +117,7 @@ python alert_attack.py \
     --model_type=roberta \
     --tokenizer_name=microsoft/codebert-base \
     --model_name_or_path=microsoft/codebert-base \
-    --number_labels 250 \  # Number Classifications
+    --number_labels $number \   # Change Number Classifications
     --use_ga \
     --block_size 512 \
     --eval_batch_size 32 \
@@ -129,7 +134,7 @@ python mhm.py \
     --tokenizer_name=microsoft/codebert-base \
     --model_name_or_path=microsoft/codebert-base \
     --block_size 512 \
-    --number_labels 250 \   # Number Classifications
+    --number_labels $number \   # Change Number Classifications
     --eval_batch_size 32 \
     --index 0 500 \
     --seed 123456
@@ -190,3 +195,7 @@ The parameter `data_type=test` means attack on the test set, `data_type=train` i
 - CodRep: https://github.com/KTH/CodRep-competition
 - Google Code Jam (GCJ): https://drive.google.com/uc?id=1t0lmgVHAVpB1GxVqMXpXdU8ArJEQQfqe
 - BigCloneBench: https://github.com/soarsmu/attack-pretrain-models-of-code/blob/main/CodeXGLUE/Clone-detection-BigCloneBench/dataset/data.jsonl
+
+## Acknowledgement
+We thank [Jason Wei, et al.](https://arxiv.org/abs/1901.11196) for their open-source project [EDA_NLP](https://github.com/jasonwei20/eda_nlp).
+
