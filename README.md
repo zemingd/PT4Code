@@ -4,7 +4,7 @@ Implementation of Empirical Software Engineering (EMSE 2025) paper: Boosting Sou
 ## Introduction
 - We totally collect 1) 18 data augmentation methods from code data, and 2) 7 data augmentation methods from NLP, and build this project on the top of [ALERT project](https://github.com/soarsmu/attack-pretrain-models-of-code) and [Project_CodeNet](https://github.com/IBM/Project_CodeNet). Please refer to these projects for more details.
 
-<div align=center><img src="img/PT4Code.png"></div>
+<div align=center><img src="img/PT4Code.png" width="700"></div>
 
 - We modify all 7 data augmentation methodes from NLP to adapt to source code. 
 ```
