@@ -199,3 +199,17 @@ The parameter `data_type=test` means attack on the test set, `data_type=train` i
 ## Acknowledgement
 We thank [Jason Wei, et al.](https://arxiv.org/abs/1901.11196) for their open-source project [EDA_NLP](https://github.com/jasonwei20/eda_nlp).
 
+## Citation
+If you use the code in your research, please cite:
+```bibtex
+    @article{dong2025boosting,
+      title={Boosting source code learning with text-oriented data augmentation: An empirical study},
+      author={Dong, Zeming and Hu, Qiang and Guo, Yuejun and Zhang, Zhenya and Cordy, Maxime and Papadakis, Mike and Le Traon, Yves and Zhao, Jianjun},
+      journal={Empirical Software Engineering},
+      volume={30},
+      number={3},
+      pages={68},
+      year={2025},
+      publisher={Springer}
+}
+```
